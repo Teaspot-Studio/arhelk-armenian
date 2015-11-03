@@ -1,0 +1,438 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-03 17:17:06.854742 UTC
+
+interface arhel_5l4tN5K8mLn1X8xpt1McF3:Arhelk.Armenian.Lemma.Adjective 7102
+  interface hash: 49beb115f73441d99367c5f9985090dc
+  ABI hash: 4dbac473e8892c8f38780a46c2cb78a1
+  export-list hash: f9042f7f8913a7bdab732877cbd6c62d
+  orphan hash: bec850ea2f5f1603defc7ad10e6003e8
+  flag hash: 73bc2d401c1c6c076af1bb3c90a2e044
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Arhelk.Armenian.Lemma.Adjective.adjective
+module dependencies: Arhelk.Armenian.Lemma.Common
+                     Arhelk.Armenian.Lemma.Data Arhelk.Armenian.Lemma.Data.Adjective
+                     Arhelk.Armenian.Lemma.Data.Adverb Arhelk.Armenian.Lemma.Data.Common
+                     Arhelk.Armenian.Lemma.Data.Particle
+                     Arhelk.Armenian.Lemma.Data.Substantive
+                     Arhelk.Armenian.Lemma.Data.Verb
+package dependencies: arhelk-core-0.1.0.0@arhel_HhwYrYJeeT8CiA1Ohagz9Z
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0
+                      base-compat-0.8.2@basec_D4gHocz8sOX8PHzFB3nfQT
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      generic-deriving-1.8.0@gener_1Q2nStr4JSvHfQMGPOhz3e
+                      ghc-prim-0.4.0.0 hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      integer-gmp-1.0.0.0
+                      lens-family-th-0.4.1.0@lensf_1BXbC5Dg0C5GlgOx3ZVBtX
+                      lens-family-core-1.2.0@lensf_41RJsMbLUP4I9prGLUphsy
+                      lens-family-1.2.0@lensf_BcsUcH7SCv1L4ogXuYAwHp
+                      lens-simple-0.1.0.8@lenss_3ClGSemuCIs1em35IPgh6B
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      text-show-2@texts_6msSD0wSAlK5unkkd9ynxr
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Applicative
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Concurrent
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Exception
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Monad.ST
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Array
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Bool
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.ByteString
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Char
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Complex
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Data
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Dynamic
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Either
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Fixed
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Floating
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Functor.Identity
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Integral
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.List
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Maybe
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Monoid
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ord
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Proxy
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ratio
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Text
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Tuple
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Coercion
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Equality
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Typeable
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Version
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Void
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.C.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.Ptr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Event
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Fingerprint
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Generics
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.RTS.Flags
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.StaticPtr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Stats
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.TypeLits
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Numeric.Natural
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Exit
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.IO
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Posix.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Text.Read
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics base-4.8.1.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  Arhelk.Armenian.Lemma.Common f9fd5d74f29386c2c51accaa1de7bf2b
+  exports: a4c2c5030ede617099bbfbdb1a2223a9
+  endsWith eedcbd50ab2056df201d558f0c08aebe
+import  -/  Arhelk.Armenian.Lemma.Data 98538ffe57c7f35c4ed61c0034f8d22b
+  exports: 179e0a540a380067907ce0c6d35ddf3b
+import  -/  Arhelk.Armenian.Lemma.Data.Adjective e89065be2db851c3bb97ad3ab6cc99e6
+  AdjectiveProperties 292629ee60927ae297c71e24a5c35e95
+  adjCase 22d36765532cf598478db73c06756b48
+  adjQuantity 730cef8f6368e3a4ba596adab1639b40
+import  -/  Arhelk.Armenian.Lemma.Data.Common 0fe48a704519c299a44db62ee358c743
+  GrammarSingle 218330b6c46200dcaa6cecbc9ae99d2b
+import  -/  Arhelk.Armenian.Lemma.Data.Substantive 466e4294624c3dc76010b6ceb0328cf1
+  Nominativus 7a1526a660fe30f774ed29a4476b7bf2
+import  -/  arhelk-core-0.1.0.0@arhel_HhwYrYJeeT8CiA1Ohagz9Z:Arhelk.Core.Rule 5f2bb1b3b57569c2a9e86346b388ba5e
+import  -/  base-4.8.1.0:Control.Monad dfea142d91349c4861427789d50d5b80
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text a305d268b7ef3fbd1de87bd464ac8e2a
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Internal 9aaf446b91649c416d85a19f08d51f8e
+d54d4db830b2d4f4116e07b6dd0a7da6
+  $swhen1 ::
+    Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+    -> ((), [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                 (GHC.Tuple.(),
+                  GHC.Types.[]
+                    @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties)) -}
+6215147ace0b93852999d2c922f6e6bf
+  adjective ::
+    Data.Text.Internal.Text
+    -> Arhelk.Core.Rule.Rule
+         Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+  {- Arity: 1, Strictness: <L,U(U,U,U)>,
+     Unfolding: (\ w :: Data.Text.Internal.Text ->
+                 let {
+                   eta :: Arhelk.Core.Rule.RuleM
+                            Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                            [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]
+                            ()
+                   = case (Arhelk.Armenian.Lemma.Common.endsWith1
+                             w
+                             Arhelk.Armenian.Lemma.Adjective.adjective5)
+                            `cast`
+                          (Data.Monoid.NTCo:Any[0]) of wild {
+                       GHC.Types.False
+                       -> Arhelk.Armenian.Lemma.Adjective.$swhen1
+                            `cast`
+                          (Trans
+                               (<Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                ->_R Trans
+                                         (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                                                   <((),
+                                                     [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])>_R))
+                                         (Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                                   <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N
+                                                   <Data.Functor.Identity.Identity>_R
+                                                   <()>_N)))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                              <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                              <Control.Monad.Trans.Writer.Lazy.WriterT
+                                                 [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]
+                                                 Data.Functor.Identity.Identity>_R
+                                              <()>_N))
+                                    (Sym (Arhelk.Core.Rule.NTCo:RuleM[0]
+                                              <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                              <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N) <()>_N)))
+                       GHC.Types.True
+                       -> (Arhelk.Core.Rule.implyNothing1
+                             @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties)
+                            `cast`
+                          (Trans
+                               (<Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                ->_R Trans
+                                         (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                                                   <((),
+                                                     [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])>_R))
+                                         (Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                                   <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N
+                                                   <Data.Functor.Identity.Identity>_R
+                                                   <()>_N)))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                              <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                              <Control.Monad.Trans.Writer.Lazy.WriterT
+                                                 [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]
+                                                 Data.Functor.Identity.Identity>_R
+                                              <()>_N))
+                                    (Sym (Arhelk.Core.Rule.NTCo:RuleM[0]
+                                              <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                              <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N) <()>_N))) }
+                 } in
+                 let {
+                   a4 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                         -> Data.Functor.Identity.Identity
+                              ((), [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])
+                     {- Arity: 1, Strictness: <L,U>m,
+                        Unfolding: InlineRule (1, True, False)
+                                   (\ eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                                    case Arhelk.Core.Rule.$wa1
+                                           @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                                           @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                                           @ (GHC.Base.Maybe
+                                                Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity)
+                                           @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+                                           @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                                           @ ()
+                                           Arhelk.Armenian.Lemma.Adjective.adjective4
+                                           (GHC.Types.:
+                                              @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+                                              Arhelk.Armenian.Lemma.Data.Common.GrammarSingle
+                                              (GHC.Types.[]
+                                                 @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity))
+                                           eta
+                                           eta1 of ww { (#,#) ww1 ww2 ->
+                                    (ww1, ww2)
+                                      `cast`
+                                    (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                                              <((),
+                                                [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])>_R)) }) -}
+                   = \ eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                     case Arhelk.Core.Rule.$wa1
+                            @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                            @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                            @ (GHC.Base.Maybe
+                                 Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity)
+                            @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+                            @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                            @ ()
+                            Arhelk.Armenian.Lemma.Adjective.adjective4
+                            Arhelk.Armenian.Lemma.Adjective.adjective3
+                            eta
+                            eta1 of ww { (#,#) ww1 ww2 ->
+                     (ww1, ww2)
+                       `cast`
+                     (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                               <((),
+                                 [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])>_R)) }
+                 } in
+                 (\ eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                  case Arhelk.Core.Rule.$wa1
+                         @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                         @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                         @ (GHC.Base.Maybe
+                              Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase)
+                         @ Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase
+                         @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                         @ ()
+                         Arhelk.Armenian.Lemma.Adjective.adjective2
+                         Arhelk.Armenian.Lemma.Adjective.adjective1
+                         a4
+                           `cast`
+                         (Trans
+                              (<Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                               ->_R Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                             <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N
+                                             <Data.Functor.Identity.Identity>_R
+                                             <()>_N))
+                              (Trans
+                                   (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                             <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                             <Control.Monad.Trans.Writer.Lazy.WriterT
+                                                [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]
+                                                Data.Functor.Identity.Identity>_R
+                                             <()>_N))
+                                   (Sym (Arhelk.Core.Rule.NTCo:RuleM[0]
+                                             <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                             <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N) <()>_N)))
+                         eta1 of ww { (#,#) ww1 ww2 ->
+                  (ww1, ww2)
+                    `cast`
+                  (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                            <((),
+                              [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties])>_R)) })
+                   `cast`
+                 (Trans
+                      (<Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                       ->_R Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                     <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N
+                                     <Data.Functor.Identity.Identity>_R
+                                     <()>_N))
+                      (Trans
+                           (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                     <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                     <Control.Monad.Trans.Writer.Lazy.WriterT
+                                        [Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]
+                                        Data.Functor.Identity.Identity>_R
+                                     <()>_N))
+                           (Sym (Arhelk.Core.Rule.NTCo:RuleM[0]
+                                     <Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties>_R
+                                     <[Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties]>_N) <()>_N)))) -}
+6c926bb22e046d280c5b53951da4b2f4
+  adjective1 :: [Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase
+                   Arhelk.Armenian.Lemma.Data.Substantive.Nominativus
+                   (GHC.Types.[]
+                      @ Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase)) -}
+daabffa802c2ed1def1c86004bff184a
+  adjective10 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\208\\190\\208\\185"#) -}
+e65894c226c08b5ff3adcb10190e3691
+  adjective2 ::
+    Lens.Family.Identical.Identical f =>
+    (GHC.Base.Maybe Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase
+     -> f (GHC.Base.Maybe
+             Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase))
+    -> Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+    -> f Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(S(S(C(C(S))L)LLLL)L),1*U(1*U(1*U(1*C1(C1(U)),A),A,A,A,A),A)><L,1*C1(U)><L,U(1*U,U,U,U)>,
+     Unfolding: (\ @ (f :: * -> *)
+                   $dIdentical :: Lens.Family.Identical.Identical f
+                   eta :: GHC.Base.Maybe
+                            Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase
+                          -> f (GHC.Base.Maybe
+                                  Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase)
+                   eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                 GHC.Base.fmap
+                   @ f
+                   (GHC.Base.$p1Applicative
+                      @ f
+                      (Lens.Family.Identical.$p1Identical @ f $dIdentical))
+                   @ (GHC.Base.Maybe
+                        Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase)
+                   @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                   (\ x :: GHC.Base.Maybe
+                             Arhelk.Armenian.Lemma.Data.Substantive.GrammarCase ->
+                    case eta1 of wild { Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ds ds1 ds2 ds3 ->
+                    Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                      x
+                      ds1
+                      ds2
+                      ds3 })
+                   (eta
+                      (case eta1 of wild { Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ds ds1 ds2 ds3 ->
+                       ds }))) -}
+4f88b7eb958b605d2659b02fdf8c11b0
+  adjective3 :: [Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+                   Arhelk.Armenian.Lemma.Data.Common.GrammarSingle
+                   (GHC.Types.[]
+                      @ Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity)) -}
+f3b5621aa7018511e5ae3dcd4fc4e816
+  adjective4 ::
+    Lens.Family.Identical.Identical f =>
+    (GHC.Base.Maybe Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+     -> f (GHC.Base.Maybe
+             Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity))
+    -> Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+    -> f Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(S(S(C(C(S))L)LLLL)L),1*U(1*U(1*U(1*C1(C1(U)),A),A,A,A,A),A)><L,1*C1(U)><L,U(U,1*U,U,U)>,
+     Unfolding: (\ @ (f :: * -> *)
+                   $dIdentical :: Lens.Family.Identical.Identical f
+                   eta :: GHC.Base.Maybe
+                            Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity
+                          -> f (GHC.Base.Maybe
+                                  Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity)
+                   eta1 :: Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ->
+                 GHC.Base.fmap
+                   @ f
+                   (GHC.Base.$p1Applicative
+                      @ f
+                      (Lens.Family.Identical.$p1Identical @ f $dIdentical))
+                   @ (GHC.Base.Maybe
+                        Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity)
+                   @ Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                   (\ x :: GHC.Base.Maybe
+                             Arhelk.Armenian.Lemma.Data.Common.GrammarQuantity ->
+                    case eta1 of wild { Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ds ds1 ds2 ds3 ->
+                    Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties
+                      ds
+                      x
+                      ds2
+                      ds3 })
+                   (eta
+                      (case eta1 of wild { Arhelk.Armenian.Lemma.Data.Adjective.AdjectiveProperties ds ds1 ds2 ds3 ->
+                       ds1 }))) -}
+d3c5d3a86d48ae9449b7912bc2d54a8a
+  adjective5 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Arhelk.Armenian.Lemma.Adjective.adjective10
+                   Arhelk.Armenian.Lemma.Adjective.adjective6) -}
+d16e33f091085218e5def6e05d41aa1e
+  adjective6 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Arhelk.Armenian.Lemma.Adjective.adjective9
+                   Arhelk.Armenian.Lemma.Adjective.adjective7) -}
+fa879293fad4fe96feff5abb32e53fbe
+  adjective7 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Arhelk.Armenian.Lemma.Adjective.adjective8
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+87a3a41f385631bbdcdcb7f7be535f52
+  adjective8 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\208\\184\\208\\185"#) -}
+f53df5e2e30f734cb3134cbe6b2ac68f
+  adjective9 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\209\\139\\208\\185"#) -}
+"SPEC/Arhelk.Armenian.Lemma.Adjective fromString @ Text" [ALWAYS] forall tpl :: Data.String.IsString
+                                                                                  Data.Text.Internal.Text
+  Data.String.fromString @ Data.Text.Internal.Text tpl
+  = Data.Text.pack
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

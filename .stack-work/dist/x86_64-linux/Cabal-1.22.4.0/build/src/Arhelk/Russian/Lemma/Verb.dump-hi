@@ -1,0 +1,168 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-03 17:00:11.550467 UTC
+
+interface arhel_5l4tN5K8mLn1X8xpt1McF3:Arhelk.Russian.Lemma.Verb 7102
+  interface hash: 87cbbfc7d7d9fe3ce482f482c003a851
+  ABI hash: 8eb0f3269b39d3fddc6514685c60976b
+  export-list hash: 730ef25f304b71f689ee51d9912d6658
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b937297e2cc5479bdeb594ad07c90aff
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Arhelk.Russian.Lemma.Verb.verb
+module dependencies: Arhelk.Russian.Lemma.Common
+                     Arhelk.Russian.Lemma.Data Arhelk.Russian.Lemma.Data.Adjective
+                     Arhelk.Russian.Lemma.Data.Adverb Arhelk.Russian.Lemma.Data.Common
+                     Arhelk.Russian.Lemma.Data.Particle
+                     Arhelk.Russian.Lemma.Data.Substantive
+                     Arhelk.Russian.Lemma.Data.Verb
+package dependencies: arhelk-core-0.1.0.0@arhel_HhwYrYJeeT8CiA1Ohagz9Z
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0
+                      base-compat-0.8.2@basec_D4gHocz8sOX8PHzFB3nfQT
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      generic-deriving-1.8.0@gener_1Q2nStr4JSvHfQMGPOhz3e
+                      ghc-prim-0.4.0.0 hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      integer-gmp-1.0.0.0
+                      lens-family-th-0.4.1.0@lensf_1BXbC5Dg0C5GlgOx3ZVBtX
+                      lens-family-core-1.2.0@lensf_41RJsMbLUP4I9prGLUphsy
+                      lens-family-1.2.0@lensf_BcsUcH7SCv1L4ogXuYAwHp
+                      lens-simple-0.1.0.8@lenss_3ClGSemuCIs1em35IPgh6B
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      text-show-2@texts_6msSD0wSAlK5unkkd9ynxr
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Applicative
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Concurrent
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Exception
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Monad.ST
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Array
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Bool
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.ByteString
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Char
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Complex
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Data
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Dynamic
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Either
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Fixed
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Floating
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Functor.Identity
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Integral
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.List
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Maybe
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Monoid
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ord
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Proxy
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ratio
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Text
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Tuple
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Coercion
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Equality
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Typeable
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Version
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Void
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.C.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.Ptr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Event
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Fingerprint
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Generics
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.RTS.Flags
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.StaticPtr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Stats
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.TypeLits
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Numeric.Natural
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Exit
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.IO
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Posix.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Text.Read
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics base-4.8.1.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  Arhelk.Russian.Lemma.Common 95ca7a2489add696eb677c42508e534e
+  exports: a3253707ed7b58b0c2eb7c10104c4cc3
+  endsWith 1b6e8a16665178c4d0540e55b713bc78
+import  -/  Arhelk.Russian.Lemma.Data 345adbad80851246740ad35896948ce9
+  exports: 1b65b4fe554f1c19c1b4690d610ea84c
+import  -/  Arhelk.Russian.Lemma.Data.Common 572ccaef9e9d8d26928e2e83c1169210
+  FirstPerson 6d24adde0d36180ddb6fae3e6048c214
+  GrammarFemale fb2ef05a18bca3d30b6d1390df7fa40a
+  GrammarMale 5b20df9fb2743cd185f223b35efec918
+  GrammarMultiple 5b8200c6b518f0e0a8a180554fc186fc
+  GrammarSingle 52eba641e2917ad7ccda2c4a033dd800
+  SecondPerson a45385969397eb7d438e1471b2f121a8
+  ThirdPerson 3fc9ecf80c292550f964e251258d3e52
+import  -/  Arhelk.Russian.Lemma.Data.Verb 7cf8f81539855801665ee1cc38cb45b2
+  FirstConjugation 2700f94ea6ebfd9adae1b50d83a73534
+  FutureTime 4d836052e18a1a60fd641b65f4e81910
+  ModusInfinitivus 5e744b92e2708d4cae64bfaff557251c
+  PastTime aa98201af7349d379fb3ced2d7240383
+  PresentTime bcf65b00a95457e8c1bb8bbcb2810dd5
+  SecondConjugation 4ea06feb3b2be4803796e7cd1f5d04f7
+  VerbProperties b8073247f4e8773d89470ff4abb60369
+  verbConjugation b3bbb018f8a2d950f59a194014b31567
+  verbGender 5338716ff26f95bfdc3b5f4cb4ae5b63
+  verbMood 33b9ea963d80152312fefbfc1aa62745
+  verbPerson fe3c4d18a1bf593a80159391d36e78cb
+  verbQuantity 72b2c88d6b8cfff69841b5d0fdadbee3
+  verbTime 8dce392da2d0f6644f3effa47ecc4613
+import  -/  arhelk-core-0.1.0.0@arhel_HhwYrYJeeT8CiA1Ohagz9Z:Arhelk.Core.Rule 5f2bb1b3b57569c2a9e86346b388ba5e
+import  -/  base-4.8.1.0:Control.Monad dfea142d91349c4861427789d50d5b80
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text a305d268b7ef3fbd1de87bd464ac8e2a
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Internal 9aaf446b91649c416d85a19f08d51f8e
+b03798488bd4820e1174ce5736228295
+  $swhen1 ::
+    Arhelk.Russian.Lemma.Data.Verb.VerbProperties
+    -> ((), [Arhelk.Russian.Lemma.Data.Verb.VerbProperties])
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ eta1 :: Arhelk.Russian.Lemma.Data.Verb.VerbProperties ->
+                 (GHC.Tuple.(),
+                  GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Verb.VerbProperties)) -}
+bcb4b917d1d2ba476c69dd735cd48c4e
+  verb ::
+    Data.Text.Internal.Text
+    -> Arhelk.Core.Rule.Rule
+         Arhelk.Russian.Lemma.Data.Verb.VerbProperties
+  {- Arity: 1, Strictness: <L,U(U,U,U)> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

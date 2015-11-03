@@ -1,0 +1,30 @@
+Lemmanization:
+  Root дерев: [Failed]
+ERROR: unimplemented
+  Root красн: [Failed]
+ERROR: unimplemented
+  Root сказ: [Failed]
+ERROR: unimplemented
+  Substantive деревьев: [Failed]
+[  II скл. муж. род ед. число им. падеж,  II скл. ср. род ед. число им. падеж,  III скл. жен. род ед. число им. падеж,    мн. число род. падеж,  II скл. муж. род ед. число вин. падеж,  II скл. ср. род ед. число вин. падеж,  III скл. жен. род ед. число вин. падеж,    мн. число вин. падеж]
+  Adjective красный: [Failed]
+[муж. род им. падеж ед. число  ,муж. род вин. падеж ед. число  ]
+  Verb ковать: [Failed]
+[   инф.    I спрж.]
+  Verb куют: [Failed]
+[3 лицо мн. число наст.     I спрж.,3 лицо мн. число буд.     I спрж.]
+  Verb играть: [Failed]
+[   инф.    I спрж.]
+  Verb сказал: [Failed]
+[  прошл.   муж. род  ]
+  Adverb тихо: [Failed]
+[полож. степень]
+  Adverb тише: [Failed]
+[сравн. степень]
+  Particle бы: [Failed]
+[ЧАСТИЦА]
+
+         Test Cases   Total       
+ Passed  0            0           
+ Failed  12           12          
+ Total   12           12          

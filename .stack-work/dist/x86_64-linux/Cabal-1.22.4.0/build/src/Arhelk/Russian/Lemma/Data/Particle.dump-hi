@@ -1,0 +1,526 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-03 16:59:55.205346 UTC
+
+interface arhel_5l4tN5K8mLn1X8xpt1McF3:Arhelk.Russian.Lemma.Data.Particle 7102
+  interface hash: f1eb5268eb1df13c05e19a160ee2ab9b
+  ABI hash: af7c03dc24be35df418e568805e9cbd1
+  export-list hash: 3d59704c44eb164749373fb3fb189394
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0fec855f7cc196a33e836a863eef834f
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Arhelk.Russian.Lemma.Data.Particle.ParticleProperties{Arhelk.Russian.Lemma.Data.Particle.ParticleProperties}
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 base-compat-0.8.2@basec_D4gHocz8sOX8PHzFB3nfQT
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      generic-deriving-1.8.0@gener_1Q2nStr4JSvHfQMGPOhz3e
+                      ghc-prim-0.4.0.0 hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      integer-gmp-1.0.0.0 pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      text-show-2@texts_6msSD0wSAlK5unkkd9ynxr
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Applicative
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Concurrent
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Exception
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Monad.ST
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Array
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Bool
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.ByteString
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Char
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Complex
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Data
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Dynamic
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Either
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Fixed
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Floating
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Functor.Identity
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Integral
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.List
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Maybe
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Monoid
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ord
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Proxy
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ratio
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Text
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Tuple
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Coercion
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Equality
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Typeable
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Version
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Void
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.C.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.Ptr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Event
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Fingerprint
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Generics
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.RTS.Flags
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.StaticPtr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Stats
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.TypeLits
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Numeric.Natural
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Exit
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.IO
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Posix.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Text.Read
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics base-4.8.1.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  base-4.8.1.0:Data.Monoid bd73caba6e77f9944cb89ef5bec300c6
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow f98816fc41e1809d42ba206af16c7297
+import  -/  text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes 2c021982bdb0927c661f3d4c9188a464
+c22925cdd201d4732b03eeb1af09a901
+  $fEqParticleProperties ::
+    GHC.Classes.Eq
+      Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                  Arhelk.Russian.Lemma.Data.Particle.$fEqParticleProperties_$c==
+                  Arhelk.Russian.Lemma.Data.Particle.$fEqParticleProperties_$c/= -}
+c22925cdd201d4732b03eeb1af09a901
+  $fEqParticleProperties_$c/= ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a4 :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   b :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 case a4 of wild { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 case b of wild1 { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 GHC.Types.False } }) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fEqParticleProperties_$c== ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   ds1 :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 case ds of wild { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 case ds1 of wild1 { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 GHC.Types.True } }) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fMonoidParticleProperties ::
+    GHC.Base.Monoid
+      Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                  Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                  Arhelk.Russian.Lemma.Data.Particle.$fMonoidParticleProperties_$cmappend
+                  Arhelk.Russian.Lemma.Data.Particle.$fMonoidParticleProperties_$cmconcat -}
+c22925cdd201d4732b03eeb1af09a901
+  $fMonoidParticleProperties_$cmappend ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><L,A>m,
+     Unfolding: InlineRule (2, True, True)
+                (\ a4 :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   ds :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 a4) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fMonoidParticleProperties_$cmconcat ::
+    [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ eta :: [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties] ->
+                 case eta of wild {
+                   [] -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   : y ys -> y }) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fShowParticleProperties ::
+    GHC.Show.Show Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                  Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties_$cshowsPrec
+                  Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties_$cshow
+                  Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties_$cshowList -}
+c22925cdd201d4732b03eeb1af09a901
+  $fShowParticleProperties1 ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   eta :: GHC.Base.String ->
+                 case ds of wild { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties2)
+                   eta }) -}
+c621b901cde6e4a4d862e389e9b99d8e
+  $fShowParticleProperties2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ParticleProperties"#) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fShowParticleProperties_$cshow ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 case x of wild { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties2 }) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fShowParticleProperties_$cshowList ::
+    [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+    -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties1) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fShowParticleProperties_$cshowsPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ ds :: GHC.Types.Int
+                   ds1 :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   eta :: GHC.Base.String ->
+                 case ds1 of wild { Arhelk.Russian.Lemma.Data.Particle.ParticleProperties ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties2)
+                   eta }) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties ::
+    TextShow.Classes.TextShow
+      Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                  Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties_$s$dmshowbPrec
+                  Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties_$cshowb
+                  Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties_$cshowbList -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties1 ::
+    [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <S,1*U> -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties2 ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   @ s
+                   eta :: Data.Text.Internal.Builder.Buffer s
+                          -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                   eta2 :: GHC.Prim.State# s[OneShot] ->
+                 Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties3
+                   @ s
+                   eta
+                   eta1
+                   eta2) -}
+4aec458dc5797bd78ff23c52a20abef9
+  $fTextShowParticleProperties3 ::
+    (Data.Text.Internal.Builder.Buffer s
+     -> GHC.ST.ST s [Data.Text.Internal.Text])
+    -> Data.Text.Internal.Builder.Buffer s
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 3, Strictness: <L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ s
+                   w :: Data.Text.Internal.Builder.Buffer s
+                        -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   w1 :: Data.Text.Internal.Builder.Buffer s
+                   w2 :: GHC.Prim.State# s[OneShot] ->
+                 case w1 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Arhelk.Russian.Lemma.Data.Particle.$wa
+                   @ s
+                   w
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w2 }) -}
+cd3c1e978964a2d6337ec0bf86a3965e
+  $fTextShowParticleProperties4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\208\\167\\208\\144\\208\\161\\208\\162\\208\\152\\208\\166\\208\\144"#) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties_$cshowb ::
+    Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties2
+                  `cast`
+                (<Arhelk.Russian.Lemma.Data.Particle.ParticleProperties>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties_$cshowbList ::
+    [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <S,1*U>,
+     Unfolding: (Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties1
+                   `cast`
+                 (<[Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]>_R
+                  ->_R Trans
+                           (forall s.
+                            <Data.Text.Internal.Builder.Buffer s
+                             -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                            ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                            ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                           (Sym (Data.Text.Internal.Builder.NTCo:Builder[0])))) -}
+c22925cdd201d4732b03eeb1af09a901
+  $fTextShowParticleProperties_$s$dmshowbPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: GHC.Types.Int
+                   eta :: Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                   @ s
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                           -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta2 :: Data.Text.Internal.Builder.Buffer s
+                   eta3 :: GHC.Prim.State# s[OneShot] ->
+                 ((Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties_$cshowb
+                     eta)
+                    `cast`
+                  (Data.Text.Internal.Builder.NTCo:Builder[0])
+                    @ s
+                    eta1
+                    eta2)
+                   `cast`
+                 (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                   eta3)
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Arhelk.Russian.Lemma.Data.Particle.ParticleProperties>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+e11ae6a6d4815416d4b282dd9fe9e649
+  $wa ::
+    (Data.Text.Internal.Builder.Buffer s
+     -> GHC.ST.ST s [Data.Text.Internal.Text])
+    -> GHC.Prim.MutableByteArray# s
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 6,
+     Strictness: <L,C(C1(U(U,U)))><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ s
+                   w :: Data.Text.Internal.Builder.Buffer s
+                        -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   ww :: GHC.Prim.MutableByteArray# s
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: GHC.Prim.Int#
+                   ww3 :: GHC.Prim.Int#
+                   w1 :: GHC.Prim.State# s[OneShot] ->
+                 letrec {
+                   $wa4 :: GHC.Prim.MutableByteArray# s
+                           -> GHC.Prim.Int#
+                           -> GHC.Prim.Int#
+                           -> GHC.Prim.Int#
+                           -> [GHC.Types.Char]
+                           -> GHC.Prim.State# s
+                           -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+                     {- Arity: 6, Strictness: <L,U><L,U><L,U><L,U><S,1*U><L,U>,
+                        Inline: [0] -}
+                   = \ ww4 :: GHC.Prim.MutableByteArray# s
+                       ww5 :: GHC.Prim.Int#
+                       ww6 :: GHC.Prim.Int#
+                       ww7 :: GHC.Prim.Int#
+                       w2 :: [GHC.Types.Char]
+                       w3 :: GHC.Prim.State# s[OneShot] ->
+                     case w2 of wild1 {
+                       []
+                       -> (w (Data.Text.Internal.Builder.Buffer @ s ww4 ww5 ww6 ww7))
+                            `cast`
+                          (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                            w3
+                       : ipv4 ipv5
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.<=# ww7 1) of wild2 {
+                            GHC.Types.False
+                            -> case ipv4 of wild3 { GHC.Types.C# c# ->
+                               let {
+                                 x :: GHC.Prim.Int# = GHC.Prim.ord# c#
+                               } in
+                               case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.<# x 65536) of wild4 {
+                                 GHC.Types.False
+                                 -> let {
+                                      i# :: GHC.Prim.Int# = GHC.Prim.+# ww5 ww6
+                                    } in
+                                    let {
+                                      x# :: GHC.Prim.Int# = GHC.Prim.-# x 65536
+                                    } in
+                                    case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           i#
+                                           (GHC.Prim.narrow16Word#
+                                              (GHC.Prim.int2Word#
+                                                 (GHC.Prim.+#
+                                                    (GHC.Prim.uncheckedIShiftRA# x# 10)
+                                                    55296)))
+                                           w3 of s2# { DEFAULT ->
+                                    case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           (GHC.Prim.+# i# 1)
+                                           (GHC.Prim.narrow16Word#
+                                              (GHC.Prim.int2Word#
+                                                 (GHC.Prim.+# (GHC.Prim.andI# x# 1023) 56320)))
+                                           s2# of s2#1 { DEFAULT ->
+                                    $wa4
+                                      ww4
+                                      ww5
+                                      (GHC.Prim.+# ww6 2)
+                                      (GHC.Prim.-# ww7 2)
+                                      ipv5
+                                      s2#1 } }
+                                 GHC.Types.True
+                                 -> case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           (GHC.Prim.+# ww5 ww6)
+                                           (GHC.Prim.narrow16Word# (GHC.Prim.int2Word# x))
+                                           w3 of s2# { DEFAULT ->
+                                    $wa4
+                                      ww4
+                                      ww5
+                                      (GHC.Prim.+# ww6 1)
+                                      (GHC.Prim.-# ww7 1)
+                                      ipv5
+                                      s2# } } }
+                            GHC.Types.True
+                            -> case GHC.Prim.newByteArray#
+                                      @ s
+                                      224
+                                      w3 of ds3 { (#,#) ipv8 ipv9 ->
+                               (# ipv8,
+                                  GHC.Types.:
+                                    @ Data.Text.Internal.Text
+                                    (Data.Text.Internal.Text
+                                       ww4
+                                         `cast`
+                                       (UnivCo mkUnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                                              s) GHC.Prim.ByteArray#)
+                                       ww5
+                                       ww6)
+                                    (case $wa4 ipv9 0 0 112 wild1 ipv8 of ds4 { (#,#) ipv10 ipv11 ->
+                                     ipv11 }) #) } } }
+                 } in
+                 $wa4
+                   ww
+                   ww1
+                   ww2
+                   ww3
+                   Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties4
+                   w1) -}
+c22925cdd201d4732b03eeb1af09a901
+  data ParticleProperties = ParticleProperties
+    Promotable
+instance GHC.Classes.Eq [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+  = Arhelk.Russian.Lemma.Data.Particle.$fEqParticleProperties
+instance GHC.Base.Monoid [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+  = Arhelk.Russian.Lemma.Data.Particle.$fMonoidParticleProperties
+instance GHC.Show.Show [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+  = Arhelk.Russian.Lemma.Data.Particle.$fShowParticleProperties
+instance TextShow.Classes.TextShow [Arhelk.Russian.Lemma.Data.Particle.ParticleProperties]
+  = Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties
+"SPEC/Arhelk.Russian.Lemma.Data.Particle $dmshowbPrec @ ParticleProperties" [ALWAYS] forall $dTextShow :: TextShow.Classes.TextShow
+                                                                                                            Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+  TextShow.Classes.$dmshowbPrec @ Arhelk.Russian.Lemma.Data.Particle.ParticleProperties
+                                $dTextShow
+  = Arhelk.Russian.Lemma.Data.Particle.$fTextShowParticleProperties_$s$dmshowbPrec
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

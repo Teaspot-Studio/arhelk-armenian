@@ -1,0 +1,3339 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-03 16:59:57.219572 UTC
+
+interface arhel_5l4tN5K8mLn1X8xpt1McF3:Arhelk.Russian.Lemma.Data.Common 7102
+  interface hash: 68a4f4c90dde6ead1311e3309b867a23
+  ABI hash: 572ccaef9e9d8d26928e2e83c1169210
+  export-list hash: 42b3be9622fc380d2fd7eeaf966bbf01
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0fec855f7cc196a33e836a863eef834f
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Arhelk.Russian.Lemma.Data.Common.GrammarGender{Arhelk.Russian.Lemma.Data.Common.GrammarFemale Arhelk.Russian.Lemma.Data.Common.GrammarMale Arhelk.Russian.Lemma.Data.Common.GrammarNeuter}
+  Arhelk.Russian.Lemma.Data.Common.GrammarPerson{Arhelk.Russian.Lemma.Data.Common.FirstPerson Arhelk.Russian.Lemma.Data.Common.SecondPerson Arhelk.Russian.Lemma.Data.Common.ThirdPerson}
+  Arhelk.Russian.Lemma.Data.Common.GrammarQuantity{Arhelk.Russian.Lemma.Data.Common.GrammarMultiple Arhelk.Russian.Lemma.Data.Common.GrammarSingle}
+  Arhelk.Russian.Lemma.Data.Common.SpeachPart{Arhelk.Russian.Lemma.Data.Common.Adjective Arhelk.Russian.Lemma.Data.Common.Adverb Arhelk.Russian.Lemma.Data.Common.Conjunction Arhelk.Russian.Lemma.Data.Common.GrammarParticle Arhelk.Russian.Lemma.Data.Common.Interjection Arhelk.Russian.Lemma.Data.Common.Numeral Arhelk.Russian.Lemma.Data.Common.Participle Arhelk.Russian.Lemma.Data.Common.Preposition Arhelk.Russian.Lemma.Data.Common.Pronoun Arhelk.Russian.Lemma.Data.Common.Substantive Arhelk.Russian.Lemma.Data.Common.Transgressive Arhelk.Russian.Lemma.Data.Common.Verb}
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 base-compat-0.8.2@basec_D4gHocz8sOX8PHzFB3nfQT
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      generic-deriving-1.8.0@gener_1Q2nStr4JSvHfQMGPOhz3e
+                      ghc-prim-0.4.0.0 hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      integer-gmp-1.0.0.0 pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      text-show-2@texts_6msSD0wSAlK5unkkd9ynxr
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Applicative
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Concurrent
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Exception
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Monad.ST
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Array
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Bool
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.ByteString
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Char
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Complex
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Data
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Dynamic
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Either
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Fixed
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Floating
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Functor.Identity
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Integral
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.List
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Maybe
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Monoid
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ord
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Proxy
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ratio
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Text
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Tuple
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Coercion
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Equality
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Typeable
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Version
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Void
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.C.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.Ptr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Event
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Fingerprint
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Generics
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.RTS.Flags
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.StaticPtr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Stats
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.TypeLits
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Numeric.Natural
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Exit
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.IO
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Posix.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Text.Read
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics base-4.8.1.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Enum d0db4d619cd8916cc7a23444816222af
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow f98816fc41e1809d42ba206af16c7297
+import  -/  text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes 2c021982bdb0927c661f3d4c9188a464
+2f9551aa939c5575e30199a6f9a99ca2
+  $fBoundedGrammarGender ::
+    GHC.Enum.Bounded Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                  Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fBoundedGrammarPerson ::
+    GHC.Enum.Bounded Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                  Arhelk.Russian.Lemma.Data.Common.ThirdPerson -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fBoundedGrammarQuantity ::
+    GHC.Enum.Bounded Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                  Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -}
+a4954b403ca32ed2883bef857b2313fb
+  $fBoundedSpeachPart ::
+    GHC.Enum.Bounded Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.Substantive
+                  Arhelk.Russian.Lemma.Data.Common.Transgressive -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender ::
+    GHC.Enum.Enum Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$csucc
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cpred
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$ctoEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cfromEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cenumFrom
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cenumFromThen
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cenumFromTo
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$cenumFromThenTo -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender1 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 1, Strictness: <L,U>b -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender2 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go3
+                   2) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender3 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go4
+                   1) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender4 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go5
+                   0) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender5 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Strictness: b -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender6 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Strictness: b -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cenumFrom ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender4
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender3
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender2 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cenumFromThen ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ a# :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ b# :: GHC.Prim.Int#[OneShot] ->
+                         let {
+                           $j2 :: GHC.Prim.Int#
+                                  -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                             {- Arity: 1, Strictness: <L,U> -}
+                           = \ y :: GHC.Prim.Int#[OneShot] ->
+                             case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.>=# b# a#) of wild {
+                               GHC.Types.False
+                               -> GHC.Enum.efdtIntDnFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c1
+                                    (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                    a#
+                                    b#
+                                    y
+                               GHC.Types.True
+                               -> GHC.Enum.efdtIntUpFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c1
+                                    (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                    a#
+                                    b#
+                                    y }
+                         } in
+                         case GHC.Prim.tagToEnum#
+                                @ GHC.Types.Bool
+                                (GHC.Prim.># a# b#) of wild {
+                           GHC.Types.False -> $j2 2 GHC.Types.True -> $j2 0 }
+                     } in
+                     case b of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMale -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> $j1 1
+                       Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> $j1 2 }
+                 } in
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> $j 2 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cenumFromThenTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U>,
+     Unfolding: (\ x1 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   x2 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x4 :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ x5 :: GHC.Prim.Int#[OneShot] ->
+                         case y of wild {
+                           Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     0
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     0 }
+                           Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     1
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     1 }
+                           Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     2
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender)
+                                     x4
+                                     x5
+                                     2 } }
+                     } in
+                     case x2 of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMale -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> $j1 1
+                       Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> $j1 2 }
+                 } in
+                 case x1 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> $j 2 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cenumFromTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x1 :: GHC.Prim.Int#[OneShot] ->
+                     case y of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 0) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go2 x1
+                            GHC.Types.True
+                            -> GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender }
+                       Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 1) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go1 x1
+                            GHC.Types.True
+                            -> GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarGender }
+                       Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 2) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_go x1
+                            GHC.Types.True
+                            -> GHC.Types.[]
+                                 @ Arhelk.Russian.Lemma.Data.Common.GrammarGender } }
+                 } in
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> $j 2 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cfromEnum ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.I# 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.I# 1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> GHC.Types.I# 2 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$cpred ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender5
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarFemale }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$csucc ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender6 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_$ctoEnum ::
+    GHC.Types.Int -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 1, Strictness: <S,1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$ctoEnum ww1 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_c ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarGender] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender_$ctoEnum x)
+                   ys) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_c1 ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarGender] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   (case x of wild { GHC.Types.I# a16 ->
+                    GHC.Prim.tagToEnum#
+                      @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                      a16 })
+                   ys) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go1 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go2 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go3 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go4 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEnumGrammarGender_go5 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson ::
+    GHC.Enum.Enum Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$csucc
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cpred
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$ctoEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cfromEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cenumFrom
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cenumFromThen
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cenumFromTo
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$cenumFromThenTo -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson1 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 1, Strictness: <L,U>b -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson2 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go3
+                   2) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson3 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go4
+                   1) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson4 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go5
+                   0) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson5 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Strictness: b -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson6 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Strictness: b -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cenumFrom ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson4
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson3
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson2 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cenumFromThen ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ a# :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ b# :: GHC.Prim.Int#[OneShot] ->
+                         let {
+                           $j2 :: GHC.Prim.Int#
+                                  -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                             {- Arity: 1, Strictness: <L,U> -}
+                           = \ y :: GHC.Prim.Int#[OneShot] ->
+                             case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.>=# b# a#) of wild {
+                               GHC.Types.False
+                               -> GHC.Enum.efdtIntDnFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c1
+                                    (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                    a#
+                                    b#
+                                    y
+                               GHC.Types.True
+                               -> GHC.Enum.efdtIntUpFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c1
+                                    (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                    a#
+                                    b#
+                                    y }
+                         } in
+                         case GHC.Prim.tagToEnum#
+                                @ GHC.Types.Bool
+                                (GHC.Prim.># a# b#) of wild {
+                           GHC.Types.False -> $j2 2 GHC.Types.True -> $j2 0 }
+                     } in
+                     case b of wild {
+                       Arhelk.Russian.Lemma.Data.Common.FirstPerson -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.SecondPerson -> $j1 1
+                       Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> $j1 2 }
+                 } in
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> $j 2 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cenumFromThenTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U>,
+     Unfolding: (\ x1 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   x2 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x4 :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ x5 :: GHC.Prim.Int#[OneShot] ->
+                         case y of wild {
+                           Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     0
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     0 }
+                           Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     1
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     1 }
+                           Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     2
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_c
+                                     (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson)
+                                     x4
+                                     x5
+                                     2 } }
+                     } in
+                     case x2 of wild {
+                       Arhelk.Russian.Lemma.Data.Common.FirstPerson -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.SecondPerson -> $j1 1
+                       Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> $j1 2 }
+                 } in
+                 case x1 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> $j 2 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cenumFromTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x1 :: GHC.Prim.Int#[OneShot] ->
+                     case y of wild {
+                       Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 0) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go2 x1
+                            GHC.Types.True
+                            -> GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson }
+                       Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 1) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go1 x1
+                            GHC.Types.True
+                            -> GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson }
+                       Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 2) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_go x1
+                            GHC.Types.True
+                            -> GHC.Types.[]
+                                 @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson } }
+                 } in
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson -> $j 1
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> $j 2 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cfromEnum ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.I# 0
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.I# 1
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> GHC.Types.I# 2 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$cpred ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson5
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.SecondPerson }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$csucc ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson6 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_$ctoEnum ::
+    GHC.Types.Int -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 1, Strictness: <S,1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$ctoEnum1 ww1 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_c ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarPerson] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson_$ctoEnum x)
+                   ys) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_c1 ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarPerson] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   (case x of wild { GHC.Types.I# a16 ->
+                    GHC.Prim.tagToEnum#
+                      @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                      a16 })
+                   ys) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go1 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go2 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go3 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go4 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEnumGrammarPerson_go5 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity ::
+    GHC.Enum.Enum Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$csucc
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cpred
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$ctoEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cfromEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cenumFrom
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cenumFromThen
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cenumFromTo
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$cenumFromThenTo -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity1 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 1, Strictness: <L,U>b -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity2 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_go2
+                   1) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity3 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_go3
+                   0) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity4 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Strictness: b -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity5 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Strictness: b -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cenumFrom ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity3
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity2 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cenumFromThen ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ a# :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ b# :: GHC.Prim.Int#[OneShot] ->
+                         let {
+                           $j2 :: GHC.Prim.Int#
+                                  -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                             {- Arity: 1, Strictness: <L,U> -}
+                           = \ y :: GHC.Prim.Int#[OneShot] ->
+                             case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.>=# b# a#) of wild {
+                               GHC.Types.False
+                               -> GHC.Enum.efdtIntDnFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c1
+                                    (GHC.Types.[]
+                                       @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                    a#
+                                    b#
+                                    y
+                               GHC.Types.True
+                               -> GHC.Enum.efdtIntUpFB
+                                    @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                    Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c1
+                                    (GHC.Types.[]
+                                       @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                    a#
+                                    b#
+                                    y }
+                         } in
+                         case GHC.Prim.tagToEnum#
+                                @ GHC.Types.Bool
+                                (GHC.Prim.># a# b#) of wild {
+                           GHC.Types.False -> $j2 1 GHC.Types.True -> $j2 0 }
+                     } in
+                     case b of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> $j1 1 }
+                 } in
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> $j 1 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cenumFromThenTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U>,
+     Unfolding: (\ x1 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   x2 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x4 :: GHC.Prim.Int#[OneShot] ->
+                     let {
+                       $j1 :: GHC.Prim.Int#
+                              -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                         {- Arity: 1, Strictness: <L,U> -}
+                       = \ x5 :: GHC.Prim.Int#[OneShot] ->
+                         case y of wild {
+                           Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c
+                                     (GHC.Types.[]
+                                        @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                     x4
+                                     x5
+                                     0
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c
+                                     (GHC.Types.[]
+                                        @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                     x4
+                                     x5
+                                     0 }
+                           Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                           -> case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# x5 x4) of wild1 {
+                                GHC.Types.False
+                                -> GHC.Enum.efdtIntDnFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c
+                                     (GHC.Types.[]
+                                        @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                     x4
+                                     x5
+                                     1
+                                GHC.Types.True
+                                -> GHC.Enum.efdtIntUpFB
+                                     @ [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                                     Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_c
+                                     (GHC.Types.[]
+                                        @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity)
+                                     x4
+                                     x5
+                                     1 } }
+                     } in
+                     case x2 of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> $j1 0
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> $j1 1 }
+                 } in
+                 case x1 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> $j 1 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cenumFromTo ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ x1 :: GHC.Prim.Int#[OneShot] ->
+                     case y of wild {
+                       Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 0) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_go1 x1
+                            GHC.Types.True
+                            -> GHC.Types.[]
+                                 @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity }
+                       Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.># x1 1) of wild1 {
+                            GHC.Types.False
+                            -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_go x1
+                            GHC.Types.True
+                            -> GHC.Types.[]
+                                 @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity } }
+                 } in
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> $j 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> $j 1 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cfromEnum ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.I# 0
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> GHC.Types.I# 1 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$cpred ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity4
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarSingle }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$csucc ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity5 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_$ctoEnum ::
+    GHC.Types.Int -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 1, Strictness: <S,1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$ctoEnum2 ww1 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_c ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   (Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity_$ctoEnum x)
+                   ys) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_c1 ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+    -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   (case x of wild { GHC.Types.I# a16 ->
+                    GHC.Prim.tagToEnum#
+                      @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                      a16 })
+                   ys) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_go ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 1, Strictness: <L,U> -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_go1 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 1, Strictness: <L,U> -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_go2 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEnumGrammarQuantity_go3 ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart ::
+    GHC.Enum.Enum Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$csucc
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cpred
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$ctoEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cfromEnum
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cenumFrom
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cenumFromThen
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cenumFromTo
+                  Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$cenumFromThenTo -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart1 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 1, Strictness: <L,U>b -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart2 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Strictness: b -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart3 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Strictness: b -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cenumFrom ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 let {
+                   x0 :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x1
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># x0 11) of wild {
+                   GHC.Types.False
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_go x0
+                   GHC.Types.True
+                   -> GHC.Types.[]
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cenumFromThen ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 let {
+                   a# :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x1
+                 } in
+                 let {
+                   b# :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x2
+                 } in
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ y :: GHC.Prim.Int#[OneShot] ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# b# a#) of wild {
+                       GHC.Types.False
+                       -> GHC.Enum.efdtIntDnFB
+                            @ [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                            Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_c1
+                            (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.SpeachPart)
+                            a#
+                            b#
+                            y
+                       GHC.Types.True
+                       -> GHC.Enum.efdtIntUpFB
+                            @ [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                            Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_c1
+                            (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.SpeachPart)
+                            a#
+                            b#
+                            y }
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># a# b#) of wild {
+                   GHC.Types.False -> $j 11 GHC.Types.True -> $j 0 } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cenumFromThenTo ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U>,
+     Unfolding: (\ x1 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   x2 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   y :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case x1 of x4 { DEFAULT ->
+                 case x2 of x5 { DEFAULT ->
+                 case y of x6 { DEFAULT ->
+                 let {
+                   x7 :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x4
+                 } in
+                 let {
+                   x8 :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x5
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# x8 x7) of wild {
+                   GHC.Types.False
+                   -> GHC.Enum.efdtIntDnFB
+                        @ [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                        Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_c
+                        (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.SpeachPart)
+                        x7
+                        x8
+                        (GHC.Prim.dataToTag#
+                           @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                           x6)
+                   GHC.Types.True
+                   -> GHC.Enum.efdtIntUpFB
+                        @ [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                        Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_c
+                        (GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.SpeachPart)
+                        x7
+                        x8
+                        (GHC.Prim.dataToTag#
+                           @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                           x6) } } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cenumFromTo ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ x :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   y :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case x of x1 { DEFAULT ->
+                 case y of x2 { DEFAULT ->
+                 let {
+                   x0 :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x1
+                 } in
+                 let {
+                   y1 :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x2
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># x0 y1) of wild {
+                   GHC.Types.False
+                   -> letrec {
+                        go8 :: GHC.Prim.Int#
+                               -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+                          {- Arity: 1, Strictness: <L,U> -}
+                        = \ x3 :: GHC.Prim.Int# ->
+                          GHC.Types.:
+                            @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                            (case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.>=# x3 0) of wild1 {
+                               GHC.Types.False
+                               -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart1 x3
+                               GHC.Types.True
+                               -> case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.<=# x3 11) of wild2 {
+                                    GHC.Types.False
+                                    -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart1 x3
+                                    GHC.Types.True
+                                    -> GHC.Prim.tagToEnum#
+                                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                                         x3 } })
+                            (case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.==# x3 y1) of wild1 {
+                               GHC.Types.False -> go8 (GHC.Prim.+# x3 1)
+                               GHC.Types.True
+                               -> GHC.Types.[] @ Arhelk.Russian.Lemma.Data.Common.SpeachPart })
+                      } in
+                      go8 x0
+                   GHC.Types.True
+                   -> GHC.Types.[]
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cfromEnum ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 GHC.Types.I#
+                   (GHC.Prim.dataToTag#
+                      @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                      x1) }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$cpred ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case GHC.Prim.dataToTag#
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                        x1 of wild {
+                   DEFAULT
+                   -> GHC.Prim.tagToEnum#
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                        (GHC.Prim.+# wild (-1))
+                   0 -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart2 } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$csucc ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case GHC.Prim.dataToTag#
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                        x1 of wild {
+                   DEFAULT
+                   -> GHC.Prim.tagToEnum#
+                        @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                        (GHC.Prim.+# wild 1)
+                   11 -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart3 } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_$ctoEnum ::
+    GHC.Types.Int -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 1, Strictness: <S,1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$ctoEnum3 ww1 }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_c ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.SpeachPart] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   (Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart_$ctoEnum x)
+                   ys) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_c1 ::
+    GHC.Types.Int
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+    -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: GHC.Types.Int
+                   ys :: [Arhelk.Russian.Lemma.Data.Common.SpeachPart] ->
+                 GHC.Types.:
+                   @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   (case x of wild { GHC.Types.I# a16 ->
+                    GHC.Prim.tagToEnum#
+                      @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                      a16 })
+                   ys) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEnumSpeachPart_go ::
+    GHC.Prim.Int# -> [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEqGrammarGender ::
+    GHC.Classes.Eq Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarGender_$c==
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarGender_$c/= -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEqGrammarGender_$c/= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> GHC.Types.False } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fEqGrammarGender_$c== ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   ds1 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case ds of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> GHC.Types.True } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEqGrammarPerson ::
+    GHC.Classes.Eq Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarPerson_$c==
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarPerson_$c/= -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEqGrammarPerson_$c/= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> GHC.Types.False } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fEqGrammarPerson_$c== ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   ds1 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case ds of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> GHC.Types.True } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEqGrammarQuantity ::
+    GHC.Classes.Eq Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarQuantity_$c==
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarQuantity_$c/= -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEqGrammarQuantity_$c/= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.False } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fEqGrammarQuantity_$c== ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   ds1 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case ds of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case ds1 of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case ds1 of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.True } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEqSpeachPart ::
+    GHC.Classes.Eq Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fEqSpeachPart_$c==
+                  Arhelk.Russian.Lemma.Data.Common.$fEqSpeachPart_$c/= -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEqSpeachPart_$c/= ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==#
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x1)
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x2)) of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fEqSpeachPart_$c== ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.==#
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x1)
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x2)) } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender ::
+    GHC.Classes.Ord Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$ccompare
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$c<
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$c<=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$c>
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$c>=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$cmax
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender_$cmin -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$c< ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$c<= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> GHC.Types.True } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$c> ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> GHC.Types.False } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$c>= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$ccompare ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.EQ
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.LT
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.LT }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale -> GHC.Types.GT
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale -> GHC.Types.EQ
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> GHC.Types.LT }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.GT
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> GHC.Types.EQ } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$cmax ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale -> y
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case y of wild1 {
+                        DEFAULT -> Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> Arhelk.Russian.Lemma.Data.Common.GrammarNeuter }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.GrammarNeuter } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fOrdGrammarGender_$cmin ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.GrammarMale }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> case y of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                        -> Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                        Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                        -> Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                        Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                        -> Arhelk.Russian.Lemma.Data.Common.GrammarFemale }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter -> y }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson ::
+    GHC.Classes.Ord Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$ccompare
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$c<
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$c<=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$c>
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$c>=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$cmax
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson_$cmin -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$c< ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$c<= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> GHC.Types.True } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$c> ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> GHC.Types.False } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$c>= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$ccompare ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.EQ
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.LT
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.LT }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson -> GHC.Types.GT
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson -> GHC.Types.EQ
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> GHC.Types.LT }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.GT
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> GHC.Types.EQ } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$cmax ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson -> y
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case y of wild1 {
+                        DEFAULT -> Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> Arhelk.Russian.Lemma.Data.Common.ThirdPerson }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.ThirdPerson } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fOrdGrammarPerson_$cmin ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.FirstPerson }
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> case y of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                        -> Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                        Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                        -> Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                        Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                        -> Arhelk.Russian.Lemma.Data.Common.SecondPerson }
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson -> y }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity ::
+    GHC.Classes.Ord Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fEqGrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$ccompare
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$c<
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$c<=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$c>
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$c>=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$cmax
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity_$cmin -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$c< ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$c<= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.False
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.True } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$c> ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.False } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$c>= ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.True
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.False }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$ccompare ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   b :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case a16 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.EQ
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> GHC.Types.LT }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case b of wild1 {
+                        Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> GHC.Types.GT
+                        Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                        -> GHC.Types.EQ } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$cmax ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle -> y
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.GrammarMultiple } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fOrdGrammarQuantity_$cmin ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   y :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> case y of wild1 { DEFAULT ->
+                      Arhelk.Russian.Lemma.Data.Common.GrammarSingle }
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple -> y }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart ::
+    GHC.Classes.Ord Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fEqSpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$ccompare
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$c<
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$c<=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$c>
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$c>=
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$cmax
+                  Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart_$cmin -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$c< ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.<#
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x1)
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x2)) } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$c<= ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.<=#
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x1)
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x2)) } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$c> ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.>#
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x1)
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x2)) } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$c>= ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.>=#
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x1)
+                      (GHC.Prim.dataToTag#
+                         @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                         x2)) } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$ccompare ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a16 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   b :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case a16 of x1 { DEFAULT ->
+                 case b of x2 { DEFAULT ->
+                 let {
+                   b# :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x2
+                 } in
+                 let {
+                   a# :: GHC.Prim.Int#
+                   = GHC.Prim.dataToTag#
+                       @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                       x1
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<# a# b#) of wild {
+                   GHC.Types.False
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# a# b#) of wild1 {
+                        GHC.Types.False -> GHC.Types.GT GHC.Types.True -> GHC.Types.EQ }
+                   GHC.Types.True -> GHC.Types.LT } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$cmax ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   y :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case x of x1 { DEFAULT ->
+                 case y of x2 { DEFAULT ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=#
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x1)
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x2)) of wild {
+                   GHC.Types.False -> x1 GHC.Types.True -> x2 } } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fOrdSpeachPart_$cmin ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   y :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 case x of x1 { DEFAULT ->
+                 case y of x2 { DEFAULT ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=#
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x1)
+                           (GHC.Prim.dataToTag#
+                              @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                              x2)) of wild {
+                   GHC.Types.False -> x2 GHC.Types.True -> x1 } } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fShowGrammarGender ::
+    GHC.Show.Show Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender_$cshowsPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender_$cshow
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender_$cshowList -}
+95020433463a128297cc091cb3462f11
+  $fShowGrammarGender1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarNeuter"#) -}
+6e1f17d20d0621ae3f925249191bdd20
+  $fShowGrammarGender2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarFemale"#) -}
+21983141d88af67fd0f9bb8eb75b9f5d
+  $fShowGrammarGender3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarMale"#) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fShowGrammarGender_$cshow ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarGender ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender3
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender2
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender1 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fShowGrammarGender_$cshowList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fShowGrammarGender_$cshowsPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ w :: GHC.Types.Int
+                   w1 :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   w2 :: GHC.Base.String ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec w1 w2) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fShowGrammarPerson ::
+    GHC.Show.Show Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson_$cshowsPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson_$cshow
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson_$cshowList -}
+f6ba3aee478c63d5f7479e33213a5e98
+  $fShowGrammarPerson1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ThirdPerson"#) -}
+45b5a86b3f554e02cada3e17af28d495
+  $fShowGrammarPerson2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "SecondPerson"#) -}
+c9e9b71efaa78fd291860bc1c1189bd0
+  $fShowGrammarPerson3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "FirstPerson"#) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fShowGrammarPerson_$cshow ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson3
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson2
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson1 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fShowGrammarPerson_$cshowList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec1) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fShowGrammarPerson_$cshowsPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ w :: GHC.Types.Int
+                   w1 :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   w2 :: GHC.Base.String ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec1 w1 w2) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fShowGrammarQuantity ::
+    GHC.Show.Show Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity_$cshowsPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity_$cshow
+                  Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity_$cshowList -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fShowGrammarQuantity1 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   eta :: GHC.Base.String ->
+                 case ds of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity3)
+                        eta
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity2)
+                        eta }) -}
+4751baecf23d8c2bd30cb4dce60b8a29
+  $fShowGrammarQuantity2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarMultiple"#) -}
+d7d7780ce54af88c375cf1da9c847e6b
+  $fShowGrammarQuantity3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarSingle"#) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fShowGrammarQuantity_$cshow ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity ->
+                 case x of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity3
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity2 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fShowGrammarQuantity_$cshowList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+    -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity1) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fShowGrammarQuantity_$cshowsPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ ds :: GHC.Types.Int
+                   ds1 :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   eta :: GHC.Base.String ->
+                 case ds1 of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarSingle
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity3)
+                        eta
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMultiple
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity2)
+                        eta }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fShowSpeachPart ::
+    GHC.Show.Show Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart_$cshowsPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart_$cshow
+                  Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart_$cshowList -}
+0fca42090ac349e30319f725d51c4f41
+  $fShowSpeachPart1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Transgressive"#) -}
+247cc3938acd0d89b2376df71c8b5e5b
+  $fShowSpeachPart10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Numeral"#) -}
+dd38b8c6372cd0334137683636782290
+  $fShowSpeachPart11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Adjective"#) -}
+e45a1ee4a367b9e204756d0a98b31e7b
+  $fShowSpeachPart12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Substantive"#) -}
+d4e48888cbbb0dc13d1d308c226f3db4
+  $fShowSpeachPart2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Participle"#) -}
+bc79b46e593c48fb514a7d5a190d8ab7
+  $fShowSpeachPart3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Interjection"#) -}
+7c222d354cae0cc622c6cfa70f95e06a
+  $fShowSpeachPart4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "GrammarParticle"#) -}
+c6fe1dd12b1d0de7035234c3cbdf1494
+  $fShowSpeachPart5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Conjunction"#) -}
+3f72dfe60f440cc6094206d4e3854ca3
+  $fShowSpeachPart6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Preposition"#) -}
+0539bfaea82c00b64727c1482d4f746c
+  $fShowSpeachPart7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Adverb"#) -}
+1cd3d6f9a95fc2de3079d7f1f1e0c132
+  $fShowSpeachPart8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Verb"#) -}
+391a5ba032ace3f68296a6285c6fba21
+  $fShowSpeachPart9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Pronoun"#) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fShowSpeachPart_$cshow ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Arhelk.Russian.Lemma.Data.Common.SpeachPart ->
+                 Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fShowSpeachPart_$cshowList ::
+    [Arhelk.Russian.Lemma.Data.Common.SpeachPart] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec2) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fShowSpeachPart_$cshowsPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ w :: GHC.Types.Int
+                   w1 :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   w2 :: GHC.Base.String ->
+                 Arhelk.Russian.Lemma.Data.Common.$w$cshowsPrec2 w1 w2) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender ::
+    TextShow.Classes.TextShow
+      Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender_$s$dmshowbPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender_$cshowb
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender_$cshowbList -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender1 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <S,1*U> -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender2 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   @ s
+                   w1 :: Data.Text.Internal.Builder.Buffer s
+                         -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   w2 :: Data.Text.Internal.Builder.Buffer s
+                   w3 :: GHC.Prim.State# s[OneShot] ->
+                 case w2 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Arhelk.Russian.Lemma.Data.Common.$wa
+                   w
+                   @ s
+                   w1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w3 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender_$cshowb ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender2
+                  `cast`
+                (<Arhelk.Russian.Lemma.Data.Common.GrammarGender>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender_$cshowbList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <S,1*U>,
+     Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender1
+                   `cast`
+                 (<[Arhelk.Russian.Lemma.Data.Common.GrammarGender]>_R
+                  ->_R Trans
+                           (forall s.
+                            <Data.Text.Internal.Builder.Buffer s
+                             -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                            ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                            ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                           (Sym (Data.Text.Internal.Builder.NTCo:Builder[0])))) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $fTextShowGrammarGender_$s$dmshowbPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: GHC.Types.Int
+                   eta :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   @ s
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                           -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta2 :: Data.Text.Internal.Builder.Buffer s
+                   eta3 :: GHC.Prim.State# s[OneShot] ->
+                 ((Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender_$cshowb
+                     eta)
+                    `cast`
+                  (Data.Text.Internal.Builder.NTCo:Builder[0])
+                    @ s
+                    eta1
+                    eta2)
+                   `cast`
+                 (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                   eta3)
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Arhelk.Russian.Lemma.Data.Common.GrammarGender>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson ::
+    TextShow.Classes.TextShow
+      Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson_$s$dmshowbPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson_$cshowb
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson_$cshowbList -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson1 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <S,1*U> -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson2 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   @ s
+                   w1 :: Data.Text.Internal.Builder.Buffer s
+                         -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   w2 :: Data.Text.Internal.Builder.Buffer s
+                   w3 :: GHC.Prim.State# s[OneShot] ->
+                 case w2 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Arhelk.Russian.Lemma.Data.Common.$wa1
+                   w
+                   @ s
+                   w1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w3 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson_$cshowb ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson2
+                  `cast`
+                (<Arhelk.Russian.Lemma.Data.Common.GrammarPerson>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson_$cshowbList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <S,1*U>,
+     Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson1
+                   `cast`
+                 (<[Arhelk.Russian.Lemma.Data.Common.GrammarPerson]>_R
+                  ->_R Trans
+                           (forall s.
+                            <Data.Text.Internal.Builder.Buffer s
+                             -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                            ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                            ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                           (Sym (Data.Text.Internal.Builder.NTCo:Builder[0])))) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $fTextShowGrammarPerson_$s$dmshowbPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: GHC.Types.Int
+                   eta :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   @ s
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                           -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta2 :: Data.Text.Internal.Builder.Buffer s
+                   eta3 :: GHC.Prim.State# s[OneShot] ->
+                 ((Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson_$cshowb
+                     eta)
+                    `cast`
+                  (Data.Text.Internal.Builder.NTCo:Builder[0])
+                    @ s
+                    eta1
+                    eta2)
+                   `cast`
+                 (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                   eta3)
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Arhelk.Russian.Lemma.Data.Common.GrammarPerson>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity ::
+    TextShow.Classes.TextShow
+      Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity_$s$dmshowbPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity_$cshowb
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity_$cshowbList -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity1 ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <S,1*U> -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity2 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   @ s
+                   w1 :: Data.Text.Internal.Builder.Buffer s
+                         -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   w2 :: Data.Text.Internal.Builder.Buffer s
+                   w3 :: GHC.Prim.State# s[OneShot] ->
+                 case w2 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Arhelk.Russian.Lemma.Data.Common.$wa2
+                   w
+                   @ s
+                   w1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w3 }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity_$cshowb ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity2
+                  `cast`
+                (<Arhelk.Russian.Lemma.Data.Common.GrammarQuantity>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity_$cshowbList ::
+    [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <S,1*U>,
+     Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity1
+                   `cast`
+                 (<[Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]>_R
+                  ->_R Trans
+                           (forall s.
+                            <Data.Text.Internal.Builder.Buffer s
+                             -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                            ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                            ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                           (Sym (Data.Text.Internal.Builder.NTCo:Builder[0])))) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $fTextShowGrammarQuantity_$s$dmshowbPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: GHC.Types.Int
+                   eta :: Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                   @ s
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                           -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta2 :: Data.Text.Internal.Builder.Buffer s
+                   eta3 :: GHC.Prim.State# s[OneShot] ->
+                 ((Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity_$cshowb
+                     eta)
+                    `cast`
+                  (Data.Text.Internal.Builder.NTCo:Builder[0])
+                    @ s
+                    eta1
+                    eta2)
+                   `cast`
+                 (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                   eta3)
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Arhelk.Russian.Lemma.Data.Common.GrammarQuantity>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart ::
+    TextShow.Classes.TextShow
+      Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart_$s$dmshowbPrec
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart_$cshowb
+                  Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart_$cshowbList -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart1 ::
+    [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4, Strictness: <S,1*U> -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart2 ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   @ s
+                   w1 :: Data.Text.Internal.Builder.Buffer s
+                         -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   w2 :: Data.Text.Internal.Builder.Buffer s
+                   w3 :: GHC.Prim.State# s[OneShot] ->
+                 case w2 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Arhelk.Russian.Lemma.Data.Common.$wa3
+                   w
+                   @ s
+                   w1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w3 }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart_$cshowb ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><S,1*U(U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart2
+                  `cast`
+                (<Arhelk.Russian.Lemma.Data.Common.SpeachPart>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart_$cshowbList ::
+    [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4, Strictness: <S,1*U>,
+     Unfolding: (Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart1
+                   `cast`
+                 (<[Arhelk.Russian.Lemma.Data.Common.SpeachPart]>_R
+                  ->_R Trans
+                           (forall s.
+                            <Data.Text.Internal.Builder.Buffer s
+                             -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                            ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                            ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                           (Sym (Data.Text.Internal.Builder.NTCo:Builder[0])))) -}
+a4954b403ca32ed2883bef857b2313fb
+  $fTextShowSpeachPart_$s$dmshowbPrec ::
+    GHC.Types.Int
+    -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: GHC.Types.Int
+                   eta :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   @ s
+                   eta1 :: Data.Text.Internal.Builder.Buffer s
+                           -> GHC.ST.ST s [Data.Text.Internal.Text]
+                   eta2 :: Data.Text.Internal.Builder.Buffer s
+                   eta3 :: GHC.Prim.State# s[OneShot] ->
+                 ((Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart_$cshowb
+                     eta)
+                    `cast`
+                  (Data.Text.Internal.Builder.NTCo:Builder[0])
+                    @ s
+                    eta1
+                    eta2)
+                   `cast`
+                 (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                   eta3)
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Arhelk.Russian.Lemma.Data.Common.SpeachPart>_R
+                 ->_R Trans
+                          (forall s.
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.NTCo:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.NTCo:Builder[0]))) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $w$cshowsPrec ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                   w1 :: GHC.Base.String ->
+                 case w of wild {
+                   Arhelk.Russian.Lemma.Data.Common.GrammarMale
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender3
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarFemale
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender2
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarNeuter
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender1
+                        w1 }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $w$cshowsPrec1 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                   w1 :: GHC.Base.String ->
+                 case w of wild {
+                   Arhelk.Russian.Lemma.Data.Common.FirstPerson
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson3
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.SecondPerson
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson2
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.ThirdPerson
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson1
+                        w1 }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $w$cshowsPrec2 ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                   w1 :: GHC.Base.String ->
+                 case w of wild {
+                   Arhelk.Russian.Lemma.Data.Common.Substantive
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart12
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Adjective
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart11
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Numeral
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart10
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Pronoun
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart9
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Verb
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart8
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Adverb
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart7
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Preposition
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart6
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Conjunction
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart5
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.GrammarParticle
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart4
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Interjection
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart3
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Participle
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart2
+                        w1
+                   Arhelk.Russian.Lemma.Data.Common.Transgressive
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart1
+                        w1 }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $w$ctoEnum ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 0) of wild {
+                   GHC.Types.False
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender1 ww
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww 2) of wild1 {
+                        GHC.Types.False
+                        -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender1 ww
+                        GHC.Types.True
+                        -> GHC.Prim.tagToEnum#
+                             @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                             ww } }) -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $w$ctoEnum1 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 0) of wild {
+                   GHC.Types.False
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson1 ww
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww 2) of wild1 {
+                        GHC.Types.False
+                        -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson1 ww
+                        GHC.Types.True
+                        -> GHC.Prim.tagToEnum#
+                             @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                             ww } }) -}
+3177ab9cc5c15dd29ff88742507e5168
+  $w$ctoEnum2 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 0) of wild {
+                   GHC.Types.False
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity1 ww
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww 1) of wild1 {
+                        GHC.Types.False
+                        -> Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity1 ww
+                        GHC.Types.True
+                        -> GHC.Prim.tagToEnum#
+                             @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                             ww } }) -}
+a4954b403ca32ed2883bef857b2313fb
+  $w$ctoEnum3 ::
+    GHC.Prim.Int# -> Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 0) of wild {
+                   GHC.Types.False
+                   -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart1 ww
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww 11) of wild1 {
+                        GHC.Types.False
+                        -> Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart1 ww
+                        GHC.Types.True
+                        -> GHC.Prim.tagToEnum#
+                             @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                             ww } }) -}
+2f9551aa939c5575e30199a6f9a99ca2
+  $wa ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarGender
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> GHC.Prim.MutableByteArray# s
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 7,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+b83fd0c6890bbabc8bd81277fd2b161e
+  $wa1 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> GHC.Prim.MutableByteArray# s
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 7,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+3177ab9cc5c15dd29ff88742507e5168
+  $wa2 ::
+    Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> GHC.Prim.MutableByteArray# s
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 7,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+a4954b403ca32ed2883bef857b2313fb
+  $wa3 ::
+    Arhelk.Russian.Lemma.Data.Common.SpeachPart
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> GHC.Prim.MutableByteArray# s
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 7,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+2f9551aa939c5575e30199a6f9a99ca2
+  data GrammarGender = GrammarMale | GrammarFemale | GrammarNeuter
+    Promotable
+b83fd0c6890bbabc8bd81277fd2b161e
+  data GrammarPerson = FirstPerson | SecondPerson | ThirdPerson
+    Promotable
+3177ab9cc5c15dd29ff88742507e5168
+  data GrammarQuantity = GrammarSingle | GrammarMultiple
+    Promotable
+a4954b403ca32ed2883bef857b2313fb
+  data SpeachPart
+    = Substantive
+    | Adjective
+    | Numeral
+    | Pronoun
+    | Verb
+    | Adverb
+    | Preposition
+    | Conjunction
+    | GrammarParticle
+    | Interjection
+    | Participle
+    | Transgressive
+    Promotable
+instance GHC.Enum.Bounded [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fBoundedGrammarGender
+instance GHC.Enum.Bounded [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fBoundedGrammarPerson
+instance GHC.Enum.Bounded [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fBoundedGrammarQuantity
+instance GHC.Enum.Bounded [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fBoundedSpeachPart
+instance GHC.Enum.Enum [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarGender
+instance GHC.Enum.Enum [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarPerson
+instance GHC.Enum.Enum [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fEnumGrammarQuantity
+instance GHC.Enum.Enum [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fEnumSpeachPart
+instance GHC.Classes.Eq [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fEqGrammarGender
+instance GHC.Classes.Eq [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fEqGrammarPerson
+instance GHC.Classes.Eq [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fEqGrammarQuantity
+instance GHC.Classes.Eq [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fEqSpeachPart
+instance GHC.Classes.Ord [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarGender
+instance GHC.Classes.Ord [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarPerson
+instance GHC.Classes.Ord [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fOrdGrammarQuantity
+instance GHC.Classes.Ord [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fOrdSpeachPart
+instance GHC.Show.Show [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fShowGrammarGender
+instance GHC.Show.Show [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fShowGrammarPerson
+instance GHC.Show.Show [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fShowGrammarQuantity
+instance GHC.Show.Show [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fShowSpeachPart
+instance TextShow.Classes.TextShow [Arhelk.Russian.Lemma.Data.Common.GrammarGender]
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender
+instance TextShow.Classes.TextShow [Arhelk.Russian.Lemma.Data.Common.GrammarPerson]
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson
+instance TextShow.Classes.TextShow [Arhelk.Russian.Lemma.Data.Common.GrammarQuantity]
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity
+instance TextShow.Classes.TextShow [Arhelk.Russian.Lemma.Data.Common.SpeachPart]
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart
+"SPEC/Arhelk.Russian.Lemma.Data.Common $dmshowbPrec @ GrammarGender" [ALWAYS] forall $dTextShow :: TextShow.Classes.TextShow
+                                                                                                     Arhelk.Russian.Lemma.Data.Common.GrammarGender
+  TextShow.Classes.$dmshowbPrec @ Arhelk.Russian.Lemma.Data.Common.GrammarGender
+                                $dTextShow
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarGender_$s$dmshowbPrec
+"SPEC/Arhelk.Russian.Lemma.Data.Common $dmshowbPrec @ GrammarPerson" [ALWAYS] forall $dTextShow :: TextShow.Classes.TextShow
+                                                                                                     Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+  TextShow.Classes.$dmshowbPrec @ Arhelk.Russian.Lemma.Data.Common.GrammarPerson
+                                $dTextShow
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarPerson_$s$dmshowbPrec
+"SPEC/Arhelk.Russian.Lemma.Data.Common $dmshowbPrec @ GrammarQuantity" [ALWAYS] forall $dTextShow :: TextShow.Classes.TextShow
+                                                                                                       Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+  TextShow.Classes.$dmshowbPrec @ Arhelk.Russian.Lemma.Data.Common.GrammarQuantity
+                                $dTextShow
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowGrammarQuantity_$s$dmshowbPrec
+"SPEC/Arhelk.Russian.Lemma.Data.Common $dmshowbPrec @ SpeachPart" [ALWAYS] forall $dTextShow :: TextShow.Classes.TextShow
+                                                                                                  Arhelk.Russian.Lemma.Data.Common.SpeachPart
+  TextShow.Classes.$dmshowbPrec @ Arhelk.Russian.Lemma.Data.Common.SpeachPart
+                                $dTextShow
+  = Arhelk.Russian.Lemma.Data.Common.$fTextShowSpeachPart_$s$dmshowbPrec
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

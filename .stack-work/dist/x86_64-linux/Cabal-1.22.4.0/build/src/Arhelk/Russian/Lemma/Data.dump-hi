@@ -1,0 +1,287 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-03 17:00:10.075577 UTC
+
+interface arhel_5l4tN5K8mLn1X8xpt1McF3:Arhelk.Russian.Lemma.Data 7102
+  interface hash: b50903e6895a3981752fe9623452fe3b
+  ABI hash: 345adbad80851246740ad35896948ce9
+  export-list hash: 1b65b4fe554f1c19c1b4690d610ea84c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b937297e2cc5479bdeb594ad07c90aff
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Arhelk.Russian.Lemma.Data.Adjective.adjCase
+  Arhelk.Russian.Lemma.Data.Adjective.adjCategory
+  Arhelk.Russian.Lemma.Data.Adjective.adjGender
+  Arhelk.Russian.Lemma.Data.Adjective.adjQuantity
+  Arhelk.Russian.Lemma.Data.Adjective.adjShort
+  Arhelk.Russian.Lemma.Data.Adverb.adverbDegree
+  Arhelk.Russian.Lemma.Data.Substantive.substAnimacy
+  Arhelk.Russian.Lemma.Data.Substantive.substAppellativity
+  Arhelk.Russian.Lemma.Data.Substantive.substCase
+  Arhelk.Russian.Lemma.Data.Substantive.substDeclension
+  Arhelk.Russian.Lemma.Data.Substantive.substGender
+  Arhelk.Russian.Lemma.Data.Substantive.substQuantity
+  Arhelk.Russian.Lemma.Data.Verb.verbAspect
+  Arhelk.Russian.Lemma.Data.Verb.verbConjugation
+  Arhelk.Russian.Lemma.Data.Verb.verbGender
+  Arhelk.Russian.Lemma.Data.Verb.verbMood
+  Arhelk.Russian.Lemma.Data.Verb.verbPerson
+  Arhelk.Russian.Lemma.Data.Verb.verbQuantity
+  Arhelk.Russian.Lemma.Data.Verb.verbTime
+  Arhelk.Russian.Lemma.Data.Verb.verbVoice
+  Arhelk.Russian.Lemma.Data.Adjective.AdjectiveCategory{Arhelk.Russian.Lemma.Data.Adjective.ComparativeAdjective Arhelk.Russian.Lemma.Data.Adjective.PossessiveAdjective Arhelk.Russian.Lemma.Data.Adjective.QualitiveAdjective}
+  Arhelk.Russian.Lemma.Data.Adjective.AdjectiveDegree{Arhelk.Russian.Lemma.Data.Adjective.ComparitiveDegree Arhelk.Russian.Lemma.Data.Adjective.PositiveDegree Arhelk.Russian.Lemma.Data.Adjective.SuperlativeDegree}
+  Arhelk.Russian.Lemma.Data.Adjective.AdjectiveProperties{Arhelk.Russian.Lemma.Data.Adjective.AdjectiveProperties Arhelk.Russian.Lemma.Data.Adjective._adjCase Arhelk.Russian.Lemma.Data.Adjective._adjCategory Arhelk.Russian.Lemma.Data.Adjective._adjGender Arhelk.Russian.Lemma.Data.Adjective._adjQuantity Arhelk.Russian.Lemma.Data.Adjective._adjShort}
+  Arhelk.Russian.Lemma.Data.Adverb.AdverbProperties{Arhelk.Russian.Lemma.Data.Adverb.AdverbProperties Arhelk.Russian.Lemma.Data.Adverb._adverbDegree}
+  Arhelk.Russian.Lemma.Data.Common.GrammarGender{Arhelk.Russian.Lemma.Data.Common.GrammarFemale Arhelk.Russian.Lemma.Data.Common.GrammarMale Arhelk.Russian.Lemma.Data.Common.GrammarNeuter}
+  Arhelk.Russian.Lemma.Data.Common.GrammarPerson{Arhelk.Russian.Lemma.Data.Common.FirstPerson Arhelk.Russian.Lemma.Data.Common.SecondPerson Arhelk.Russian.Lemma.Data.Common.ThirdPerson}
+  Arhelk.Russian.Lemma.Data.Common.GrammarQuantity{Arhelk.Russian.Lemma.Data.Common.GrammarMultiple Arhelk.Russian.Lemma.Data.Common.GrammarSingle}
+  Arhelk.Russian.Lemma.Data.Common.SpeachPart{Arhelk.Russian.Lemma.Data.Common.Adjective Arhelk.Russian.Lemma.Data.Common.Adverb Arhelk.Russian.Lemma.Data.Common.Conjunction Arhelk.Russian.Lemma.Data.Common.GrammarParticle Arhelk.Russian.Lemma.Data.Common.Interjection Arhelk.Russian.Lemma.Data.Common.Numeral Arhelk.Russian.Lemma.Data.Common.Participle Arhelk.Russian.Lemma.Data.Common.Preposition Arhelk.Russian.Lemma.Data.Common.Pronoun Arhelk.Russian.Lemma.Data.Common.Substantive Arhelk.Russian.Lemma.Data.Common.Transgressive Arhelk.Russian.Lemma.Data.Common.Verb}
+  Arhelk.Russian.Lemma.Data.Particle.ParticleProperties{Arhelk.Russian.Lemma.Data.Particle.ParticleProperties}
+  Arhelk.Russian.Lemma.Data.Substantive.Animacy{Arhelk.Russian.Lemma.Data.Substantive.AnimateNoun Arhelk.Russian.Lemma.Data.Substantive.InanimateNoun}
+  Arhelk.Russian.Lemma.Data.Substantive.Appellativity{Arhelk.Russian.Lemma.Data.Substantive.AppellativeNoun Arhelk.Russian.Lemma.Data.Substantive.ProperNoun}
+  Arhelk.Russian.Lemma.Data.Substantive.Declension{Arhelk.Russian.Lemma.Data.Substantive.FirstDeclension Arhelk.Russian.Lemma.Data.Substantive.SecondDeclension Arhelk.Russian.Lemma.Data.Substantive.ThirdDeclension}
+  Arhelk.Russian.Lemma.Data.Substantive.GrammarCase{Arhelk.Russian.Lemma.Data.Substantive.Ablativus Arhelk.Russian.Lemma.Data.Substantive.Accusativus Arhelk.Russian.Lemma.Data.Substantive.Dativus Arhelk.Russian.Lemma.Data.Substantive.Genitivus Arhelk.Russian.Lemma.Data.Substantive.Nominativus Arhelk.Russian.Lemma.Data.Substantive.Praepositionalis}
+  Arhelk.Russian.Lemma.Data.Substantive.SubstantiveProperties{Arhelk.Russian.Lemma.Data.Substantive.SubstantiveProperties Arhelk.Russian.Lemma.Data.Substantive._substAnimacy Arhelk.Russian.Lemma.Data.Substantive._substAppellativity Arhelk.Russian.Lemma.Data.Substantive._substCase Arhelk.Russian.Lemma.Data.Substantive._substDeclension Arhelk.Russian.Lemma.Data.Substantive._substGender Arhelk.Russian.Lemma.Data.Substantive._substQuantity}
+  Arhelk.Russian.Lemma.Data.Verb.GrammarAspect{Arhelk.Russian.Lemma.Data.Verb.ImperfectiveAspect Arhelk.Russian.Lemma.Data.Verb.PerfectiveAspect}
+  Arhelk.Russian.Lemma.Data.Verb.GrammarConjugation{Arhelk.Russian.Lemma.Data.Verb.FirstConjugation Arhelk.Russian.Lemma.Data.Verb.SecondConjugation}
+  Arhelk.Russian.Lemma.Data.Verb.GrammarMood{Arhelk.Russian.Lemma.Data.Verb.ModusConditionalis Arhelk.Russian.Lemma.Data.Verb.ModusImperativus Arhelk.Russian.Lemma.Data.Verb.ModusIndicativus Arhelk.Russian.Lemma.Data.Verb.ModusInfinitivus}
+  Arhelk.Russian.Lemma.Data.Verb.GrammarTime{Arhelk.Russian.Lemma.Data.Verb.FutureTime Arhelk.Russian.Lemma.Data.Verb.PastTime Arhelk.Russian.Lemma.Data.Verb.PresentTime}
+  Arhelk.Russian.Lemma.Data.Verb.GrammarVoice{Arhelk.Russian.Lemma.Data.Verb.ActiveVoice Arhelk.Russian.Lemma.Data.Verb.PassiveVoice}
+  Arhelk.Russian.Lemma.Data.Verb.VerbProperties{Arhelk.Russian.Lemma.Data.Verb.VerbProperties Arhelk.Russian.Lemma.Data.Verb._verbAspect Arhelk.Russian.Lemma.Data.Verb._verbConjugation Arhelk.Russian.Lemma.Data.Verb._verbGender Arhelk.Russian.Lemma.Data.Verb._verbMood Arhelk.Russian.Lemma.Data.Verb._verbPerson Arhelk.Russian.Lemma.Data.Verb._verbQuantity Arhelk.Russian.Lemma.Data.Verb._verbTime Arhelk.Russian.Lemma.Data.Verb._verbVoice}
+module dependencies: Arhelk.Russian.Lemma.Data.Adjective
+                     Arhelk.Russian.Lemma.Data.Adverb Arhelk.Russian.Lemma.Data.Common
+                     Arhelk.Russian.Lemma.Data.Particle
+                     Arhelk.Russian.Lemma.Data.Substantive
+                     Arhelk.Russian.Lemma.Data.Verb
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 base-compat-0.8.2@basec_D4gHocz8sOX8PHzFB3nfQT
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      generic-deriving-1.8.0@gener_1Q2nStr4JSvHfQMGPOhz3e
+                      ghc-prim-0.4.0.0 hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      integer-gmp-1.0.0.0
+                      lens-family-th-0.4.1.0@lensf_1BXbC5Dg0C5GlgOx3ZVBtX
+                      lens-family-core-1.2.0@lensf_41RJsMbLUP4I9prGLUphsy
+                      lens-family-1.2.0@lensf_BcsUcH7SCv1L4ogXuYAwHp
+                      lens-simple-0.1.0.8@lenss_3ClGSemuCIs1em35IPgh6B
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      text-show-2@texts_6msSD0wSAlK5unkkd9ynxr
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Applicative
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Concurrent
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Exception
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Control.Monad.ST
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Array
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Bool
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.ByteString
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Char
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Complex
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Data
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Dynamic
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Either
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Fixed
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Floating
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Functor.Identity
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Integral
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.List
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Maybe
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Monoid
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ord
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Proxy
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Ratio
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Text
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Tuple
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Coercion
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Type.Equality
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Typeable
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Version
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Data.Void
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.C.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Foreign.Ptr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Event
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Fingerprint
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Generics
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.RTS.Flags
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.StaticPtr
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.Stats
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.GHC.TypeLits
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Numeric.Natural
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Exit
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.IO
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.System.Posix.Types
+         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Text.Read
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics base-4.8.1.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         text-show-2@texts_6msSD0wSAlK5unkkd9ynxr:TextShow.Classes
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  Arhelk.Russian.Lemma.Data.Adjective 1051c98a64f2248696bb68d7ea004fb2
+  exports: 615065f5a22d20385d0277dc16e73375
+  AdjectiveCategory 5ffc905e35afc80e4f9c2fd12dc510aa
+  AdjectiveDegree 31f2be2af69dd58963121f7ebdafd7b7
+  AdjectiveProperties f6f5128555ed5f6320041621f4904cc4
+  AdjectiveProperties ff2813a398de89be0ac01fe714c163ff
+  ComparativeAdjective 636ee24c4602f0fb9a1622935b59cfa2
+  ComparitiveDegree e249620f8129b5e600f43441fc7f96c8
+  PositiveDegree efb672f6b4f6ff958799387e36f0f326
+  PossessiveAdjective ba65e176d2a8975bdfd8b90d475ab09d
+  QualitiveAdjective d79c5868e80b7d8851b170fb356a3cc5
+  SuperlativeDegree 0c4d800819c0a23cc8ff1e236668d1e3
+  _adjCase 6f2ff9e9db71877ebc1fc1b67ff0897f
+  _adjCategory eee7729c7a19f1beeb942fe8a58ed89e
+  _adjGender 73e3621a0a28b980945d81e25a77ddc5
+  _adjQuantity 42b51f35b8a6184b1438fd063ccf77fd
+  _adjShort d2dbe3bea15f273d8c0a0ca6ebedb237
+  adjCase 670533b23ca861e4c8abb8fd4689d8f4
+  adjCategory 71b6ca7d83ffb21cc4557f5240a7f787
+  adjGender 716cfdee03aa5650726ff6499a966ed0
+  adjQuantity e84f0c8bd05d25b0b33c7cf277c4fbca
+  adjShort 15951db2ced4269797a4600c75b49242
+import  -/  Arhelk.Russian.Lemma.Data.Adverb 36e92ebb6de25e7b5e9fcfdcab0576d1
+  exports: c8c6c929c9840d29b4e413080bea576c
+  AdverbProperties c87ea63661c7497b9b43748e4c8e4569
+  AdverbProperties 15d27584ad5ef7c1c7f524c0f64c9cfe
+  _adverbDegree f11d7cfd203696b971f1cea4f6ac82b0
+  adverbDegree d357e305607772cede2f814a352574e5
+import  -/  Arhelk.Russian.Lemma.Data.Common 572ccaef9e9d8d26928e2e83c1169210
+  exports: 42b3be9622fc380d2fd7eeaf966bbf01
+  Adjective cd838ce4ff27246e99604c60df89cfe6
+  Adverb 9fe88c8ee6490e778614a1a6a5a19675
+  Conjunction bfb5d1c2499f30b67c1bfcb5128a1cce
+  FirstPerson 6d24adde0d36180ddb6fae3e6048c214
+  GrammarFemale fb2ef05a18bca3d30b6d1390df7fa40a
+  GrammarGender 2f9551aa939c5575e30199a6f9a99ca2
+  GrammarMale 5b20df9fb2743cd185f223b35efec918
+  GrammarMultiple 5b8200c6b518f0e0a8a180554fc186fc
+  GrammarNeuter c2b7f08f846d6227a8d24d6518da61df
+  GrammarParticle 4877b39cf5b5862b34615c497157db6a
+  GrammarPerson b83fd0c6890bbabc8bd81277fd2b161e
+  GrammarQuantity 3177ab9cc5c15dd29ff88742507e5168
+  GrammarSingle 52eba641e2917ad7ccda2c4a033dd800
+  Interjection c5c679081f5838820c9c33dc5a802927
+  Numeral 8a61cb59ef7ae0ba490bbada6a819df8
+  Participle 2e13fbfe28e483f62c8f0168abd551ef
+  Preposition 5c6ce866ca05865e9929d1b57b0bef48
+  Pronoun 8ebb5e729520ec977ba837f32f5a8ca0
+  SecondPerson a45385969397eb7d438e1471b2f121a8
+  SpeachPart a4954b403ca32ed2883bef857b2313fb
+  Substantive 255ef8ecfbc731ab2d96f5b8217c010b
+  ThirdPerson 3fc9ecf80c292550f964e251258d3e52
+  Transgressive 3b51c7124b79d6e0f94037d8856791ef
+  Verb 45f7e324d4d358e51135cfe121a5ac7e
+import  -/  Arhelk.Russian.Lemma.Data.Particle af7c03dc24be35df418e568805e9cbd1
+  exports: 3d59704c44eb164749373fb3fb189394
+  ParticleProperties 6e94b2d5e266ca230fc66321fffb917f
+  ParticleProperties c22925cdd201d4732b03eeb1af09a901
+import  -/  Arhelk.Russian.Lemma.Data.Substantive a743750566235cd8d39b888bc1c4cc51
+  exports: 59c06da26dacc33852214d7a7491faf9
+  Ablativus 3967bb96d66e32f078b1c90ab20cab3c
+  Accusativus d84288c5a1a412702e47a1108916e2b1
+  Animacy 6db669a4594fb36ac5edb749c903cd67
+  AnimateNoun f86ca8fd1d374efada00e17ef6692f4d
+  AppellativeNoun 94e85c841c20123407e613137c11cef2
+  Appellativity d3361fcc7c84af75fba91f9e3490d53a
+  Dativus f48cac9f9a9011cff1db0546c3fbce69
+  Declension a7f16afbe9455a0120cf0b2974a927fc
+  FirstDeclension 6844d08345f831e05300b261b39e773d
+  Genitivus 82ac70170707827c16da9275edaa309f
+  GrammarCase 5ad720d8ab1fde037d8278bc596d70cb
+  InanimateNoun c83ae17eebbd473b7e26bcf4e3548c87
+  Nominativus cd3cb71b4b754743eb34bb3badc054ba
+  Praepositionalis cf7506926a4653a22372736e89a290f0
+  ProperNoun 1c49d1c3e32d0c8f6456793ab291f9ee
+  SecondDeclension cfd796566f59c611ce596867b2806403
+  SubstantiveProperties 0eaae4eb3225c432ef665798106ed7eb
+  SubstantiveProperties 6317a75e6403756fdec7b4a5e534b4e8
+  ThirdDeclension 0fa5e6c4c11e97156096a2f90e38b968
+  _substAnimacy 6edbc35dcc6c6cb99a0ef8c6548bd4ec
+  _substAppellativity bf7261601cff8b0a583afd66a270d6b9
+  _substCase d0c8081ed01159636db9f19dd5a43368
+  _substDeclension 4428ca6ec30913721eb49ef81250d575
+  _substGender bab8ad4e558ba02920fbeddc310726a1
+  _substQuantity dc6000831db389b04a61f689d6b825dd
+  substAnimacy a011d0c4d8938e6f014a428a3f11f295
+  substAppellativity cc7ab02e93092e202926ab198e644c54
+  substCase 3d10e48e513c55266d36e24ad1625d9e
+  substDeclension f8f15536b0b982a3faf808818da35f84
+  substGender 88541f4a50c008db22d09c8469de13b4
+  substQuantity 8bfb339111ebe53e01790864d7d9c1be
+import  -/  Arhelk.Russian.Lemma.Data.Verb 7cf8f81539855801665ee1cc38cb45b2
+  exports: 4554aedce5e72d1f4125a8aa3a08686a
+  ActiveVoice 9d2d92d0bcd67f72b6c8d289d74f975a
+  FirstConjugation 2700f94ea6ebfd9adae1b50d83a73534
+  FutureTime 4d836052e18a1a60fd641b65f4e81910
+  GrammarAspect 729684c8de84ee503730e89c4521d8da
+  GrammarConjugation 61cdff692a21466ea52ca4aedbc5b3f5
+  GrammarMood b12853535a51b0d68aa53fee712e6d6a
+  GrammarTime 172ac35ef00cf680590b3e81679c4616
+  GrammarVoice b6bab249be4ba453bb258963386816b8
+  ImperfectiveAspect e6198b8dc26bff66154a5456676b3e62
+  ModusConditionalis a35f33b049994aec1be9d970f68e4486
+  ModusImperativus b08d78bb05dc4d710f66ae15cad26e8e
+  ModusIndicativus 15ac751cada31bf2ef5adca96a40811d
+  ModusInfinitivus 5e744b92e2708d4cae64bfaff557251c
+  PassiveVoice c03d6223b9adf92328e368d62b461b9c
+  PastTime aa98201af7349d379fb3ced2d7240383
+  PerfectiveAspect cc62033643e49435e46ba883a69a55b6
+  PresentTime bcf65b00a95457e8c1bb8bbcb2810dd5
+  SecondConjugation 4ea06feb3b2be4803796e7cd1f5d04f7
+  VerbProperties 94021da09796a0360d3eb13bda2aa3c4
+  VerbProperties b8073247f4e8773d89470ff4abb60369
+  _verbAspect a3caa575d8d03a60090c4b4ae1774f99
+  _verbConjugation 3570fc1259859d864036a1a9f198ff84
+  _verbGender 0823823310a5185c03130886a4dfcb43
+  _verbMood d4678512a7960114a0fc887f8adfe681
+  _verbPerson ba5e74905ac86b4bd369fc35433eda1e
+  _verbQuantity d117a65cc2c33f27cba52a74bdc01d60
+  _verbTime 0fb7be5f3c4cd201346fa2684f950c02
+  _verbVoice ace0d582353967d58ea77c8f2d164fe3
+  verbAspect aa62b373ed3560173bf2484b39bcb654
+  verbConjugation b3bbb018f8a2d950f59a194014b31567
+  verbGender 5338716ff26f95bfdc3b5f4cb4ae5b63
+  verbMood 33b9ea963d80152312fefbfc1aa62745
+  verbPerson fe3c4d18a1bf593a80159391d36e78cb
+  verbQuantity 72b2c88d6b8cfff69841b5d0fdadbee3
+  verbTime 8dce392da2d0f6644f3effa47ecc4613
+  verbVoice a5ab936ef5807e506d5be2dd7355f2d9
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
