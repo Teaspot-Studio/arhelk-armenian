@@ -74,4 +74,4 @@ test-suite arhelk-armenian-test
 
 source-repository head
   type:     git
-  location: https://github.com/Teaspot-Studio/arhelk-russian.git
+  location: https://github.com/Teaspot-Studio/arhelk-armenian.git

@@ -19,25 +19,6 @@ instance TextShow Declension where
     SecondDeclension -> "II скл."
     ThirdDeclension -> "III скл."
 
--- | Падеж. Grammatical case.
-data GrammarCase =
-    Nominativus -- ^ Иминительный
-  | Genitivus -- ^ Родительный
-  | Dativus -- ^ Дательный
-  | Accusativus -- ^ Винительный
-  | Ablativus -- ^ Творительный
-  | Praepositionalis -- ^ Предложный
-  deriving (Eq, Ord, Enum, Show, Bounded)
-
-instance TextShow GrammarCase where 
-  showb v = case v of 
-    Nominativus -> "им. падеж"
-    Genitivus -> "род. падеж"
-    Dativus -> "дат. падеж"
-    Accusativus -> "вин. падеж"
-    Ablativus -> "твор. падеж"
-    Praepositionalis -> "предл. падеж"
-
 -- | Имя нарицательное или собственное
 data Appellativity =
     AppellativeNoun -- ^ Нарицательное
@@ -49,24 +30,30 @@ instance TextShow Appellativity where
     AppellativeNoun -> "нариц."
     ProperNoun -> "собств."
 
--- | Одушевленность 
-data Animacy = 
-    AnimateNoun -- ^ Одушевленное
-  | InanimateNoun -- ^ Неодушевленное
+data Article = 
+    Definite
+  | Undefinite
+  | FirstPersonArticle
+  | SecondPersonArticle
+  | ThirdPersonArticle
   deriving (Eq, Ord, Enum, Show, Bounded)
 
-instance TextShow Animacy where 
+instance TextShow Article where
   showb v = case v of
-    AnimateNoun -> "одушвл."
-    InanimateNoun -> "неодушвл."
+    Definite -> "опр. артикль"
+    Undefinite -> "неопр. артикль"
+    FirstPersonArticle -> "1л притяж. артикль"
+    SecondPersonArticle -> "2л притяж. артикль"
+    ThirdPersonArticle -> "3л притяж. артикль"
+
 
 -- | Substantive morphological properties
 data SubstantiveProperties = SubstantiveProperties {
   _substAppellativity :: Maybe Appellativity
-, _substAnimacy :: Maybe Animacy
 , _substDeclension :: Maybe Declension
 , _substQuantity :: Maybe GrammarQuantity
-, _substCase :: Maybe GrammarCase
+, _substCase :: Maybe Հոլով
+, _substArticle :: Maybe Article
 } deriving (Eq, Show)
 
 $(makeLenses ''SubstantiveProperties)
@@ -74,25 +61,25 @@ $(makeLenses ''SubstantiveProperties)
 instance Monoid SubstantiveProperties where 
   mempty = SubstantiveProperties {
     _substAppellativity = Nothing
-  , _substAnimacy = Nothing
   , _substDeclension = Nothing
   , _substQuantity = Nothing
   , _substCase = Nothing
+  , _substArticle = Nothing
   }
 
   mappend a b = SubstantiveProperties {
     _substAppellativity = getFirst $ First (_substAppellativity a) <> First (_substAppellativity b)
-  , _substAnimacy = getFirst $ First (_substAnimacy a) <> First (_substAnimacy b) 
   , _substDeclension = getFirst $ First (_substDeclension a) <> First (_substDeclension b)
   , _substQuantity = getFirst $ First (_substQuantity a) <> First (_substQuantity b)
   , _substCase = getFirst $ First (_substCase a) <> First (_substCase b)
+  , _substArticle = getFirst $ First (_substArticle a) <> First (_substArticle b)
   }
 
 instance TextShow SubstantiveProperties where 
   showb SubstantiveProperties{..} = unwordsB [
       maybe "" showb _substAppellativity
-    , maybe "" showb _substAnimacy
     , maybe "" showb _substDeclension
     , maybe "" showb _substQuantity
     , maybe "" showb _substCase
+    , maybe "" showb _substArticle
     ]

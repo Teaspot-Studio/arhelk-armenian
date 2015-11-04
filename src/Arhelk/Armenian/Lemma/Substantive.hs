@@ -1,63 +1,53 @@
 module Arhelk.Armenian.Lemma.Substantive(
-    substantive
+    substantive,
+    stripHolov
   ) where
 
 import Arhelk.Core.Rule
 import Arhelk.Armenian.Lemma.Common
 import Arhelk.Armenian.Lemma.Data
+import Arhelk.Armenian.Lemma.Data.Substantive
 import Control.Monad
 import Data.Text as T 
+import Data.List as L
 import Lens.Simple
+
+stripHolov :: [Text] -> Text -> Text
+stripHolov h w = L.foldl (\acc e -> 
+    if acc `endsWith` [e]
+      then T.dropEnd (T.length e) acc
+      else acc
+    ) w h 
 
 -- | Try to guess quantity, declension and case by ending of word
 substantive :: Text -> Rule SubstantiveProperties
 substantive w = do
-  propose substCase Nominativus $ do 
-    propose substQuantity GrammarSingle $ do
-      when (w `endsWith` ["а", "я"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["", "о", "е"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` [""]) $ imply substDeclension ThirdDeclension
-    propose substQuantity GrammarMultiple $ do
-      when (w `endsWith` ["ы", "и"]) $ imply substDeclension  FirstDeclension
-      when (w `endsWith` ["ы", "и", "а", "я"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` ["и"]) $ imply substDeclension ThirdDeclension
+  guessQuantity
+  guessCase
+  guessArticle
+  where
+    guessArticle = do
+      let d = w `endsWith` ["ը"]  -- This rule is 100%
+      let a = w `endsWith` ["ան", "են", "էն", "ին", "ուն", "ոն", "օն"] --This might be wrong
+      when (d) $ imply substArticle Definite
+      when (a) $ imply substArticle Definite
+      when (not (a || d) ) $ imply substArticle Undefinite
+      when (w `endsWith` ["ս"]) $ imply substArticle FirstPersonArticle
+      when (w `endsWith` ["դ"]) $ imply substArticle SecondPersonArticle
+      when (w `endsWith` ["ն"]) $ imply substArticle ThirdPersonArticle
 
-  propose substCase Genitivus $ do 
-    propose substQuantity GrammarSingle $ do 
-      when (w `endsWith` ["ы", "и"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["а", "я", "у", "ю"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` ["и"]) $ imply substDeclension ThirdDeclension
-    propose substQuantity GrammarMultiple $ do 
-      when (w `endsWith` ["", "ов", "ев", "ей"]) implyNothing
+    guessQuantity = do
+      if (stripHolov (holovs Ուղղական) ws) `endsWith` ["եր","ներ"]
+        then imply substQuantity GrammarMultiple
+        else imply substQuantity GrammarSingle
+      where ws = if (w `endsWith` ["ը"]) then T.dropEnd 1 w else w
 
-  propose substCase Dativus $ do 
-    propose substQuantity GrammarSingle $ do 
-      when (w `endsWith` ["е", "и"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["у", "ю"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` ["и"]) $ imply substDeclension ThirdDeclension
-    propose substQuantity GrammarMultiple $ do 
-      when (w `endsWith` ["ам", "ям"]) implyNothing
-
-  propose substCase Accusativus $ do 
-    propose substQuantity GrammarSingle $ do 
-      when (w `endsWith` ["у", "ю"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["", "о", "е", "а", "я", "у", "ю"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` [""]) $ imply substDeclension ThirdDeclension
-    propose substQuantity  GrammarMultiple $ do 
-      when (w `endsWith` ["", "ы", "и", "а", "я", "ов", "ев", "ей"]) implyNothing
-
-  propose substCase Ablativus $ do 
-    propose substQuantity GrammarSingle $ do 
-      when (w `endsWith` ["ой", "ою", "ей", "ею"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["ом", "ем"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` ["ью"]) $ imply substDeclension ThirdDeclension
-    propose substQuantity GrammarMultiple $ do 
-      when (w `endsWith` ["ами", "ями", "ми"]) implyNothing
-
-  propose substCase Praepositionalis $ do 
-    propose substQuantity GrammarSingle $ do 
-      when (w `endsWith` ["е", "и"]) $ imply substDeclension FirstDeclension
-      when (w `endsWith` ["е", "и"]) $ imply substDeclension SecondDeclension
-      when (w `endsWith` ["и"]) $ imply substDeclension ThirdDeclension
-    propose substQuantity GrammarMultiple $ do 
-      when (w `endsWith` ["ах", "ях"]) implyNothing
+    guessCase = do
+      when (ws `endsWith` holovs Սերական) $ imply substCase Սերական
+      when (ws `endsWith` holovs Տրական) $ imply substCase Տրական
+      when (ws `endsWith` holovs Հայցական) $ imply substCase Հայցական
+      when (ws `endsWith` holovs Բացարական) $ imply substCase Բացարական
+      when (ws `endsWith` holovs Գործիական) $ imply substCase Գործիական
+      when (ws `endsWith` holovs Ներգոյական) $ imply substCase Ներգոյական
+      when (not (ws `endsWith` holovs Ուղղական) || (w `endsWith` [""])) $ imply substCase Ուղղական
+      where ws = if (w `endsWith` ["ը"]) then T.dropEnd 1 w else w

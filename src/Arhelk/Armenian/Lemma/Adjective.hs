@@ -10,6 +10,5 @@ import Data.Text as T
 
 adjective :: Text -> Rule AdjectiveProperties
 adjective w = do 
-  propose adjCase Nominativus $ do 
-    propose adjQuantity GrammarSingle $ do
-      when (w `endsWith` ["ой", "ый", "ий"]) $ implyNothing
+  propose adjQuantity GrammarSingle $ do
+    when (w `endsWith` ["ой", "ый", "ий"]) $ implyNothing

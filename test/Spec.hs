@@ -1,7 +1,7 @@
 import Test.Framework
 import Test.Framework.Providers.QuickCheck2
 
-import qualified Test.Arhelk.Russian.Lemma as Lemma
+import qualified Test.Arhelk.Armenian.Lemma as Lemma
 
 main :: IO ()
 main = defaultMainWithOpts [
